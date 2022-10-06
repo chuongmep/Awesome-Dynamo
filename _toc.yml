@@ -3,17 +3,24 @@
 
 format: jb-book
 root: readme
-options:
-  numbered: True
+# options:
+#   numbered: True
 chapters:
 - file: how_to_read.md
 - file: DynamoPage/dynpage.md
 - file: DynamoVersion/dynversion.md
+  sections:
+  - file: DynamoVersion/civil3d.md
+  - file: DynamoVersion/revit.md
+  - file: DynamoVersion/formit.md
 - file: DynamoPackage/dynpackage.md
   sections:
   - file: DynamoPackage/dynpathpackage.md
   - file: DynamoPackage/dyndevelopackage.md
+- file: DynamoScripts/dynscripts.md
 - file: DynamoOpenSource/dynopensource.md
+- file: DynamoDeveloper/dyndeveloper.md
+- file: DynamoPython/dynpython.md
 - file: DynamoGenerativeDesign/dyngenerative.md
 - file: DynamoML/dynml.md
 - file: DynamoChat/dynchar.md
@@ -21,4 +28,4 @@ chapters:
 - file: DynamoYoutube/dynyoutube.md
 - file: DynamoSupport/dynsupport.md
 - file: DynamoShortcuts/dynshortcuts.md
-- file: DynamoSolve/dynresolve.md
+- file: DynamoResolve/dynresolve.md

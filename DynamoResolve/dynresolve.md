@@ -1,1 +1,2 @@
-## This section help people resolve some problem common of dynamo
+# Dynamo Resolve Problem
+

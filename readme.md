@@ -1,4 +1,4 @@
-## Welcome to Awesome Dynamo
+# Welcome to Awesome Dynamo
 
 ![](images/DynamoBackground.png)
 
@@ -21,5 +21,9 @@ Chuong is passionate about enhancing the performance of AEC industry by promotin
 
 ### Contribute
 
-I'm happy if anyone contribute to this resouces !
+I'm happy if anyone contribute to this resouces. Project writed by [JupyterBook](https://jupyterbook.org/en/stable/intro.html)
+
+<a href = "https://github.com/chuongmep/Awesome-Dynamo/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=chuongmep/Awesome-Dynamo"/>
+</a>
 
