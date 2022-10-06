@@ -6,7 +6,7 @@
 
 The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn.
 
-Some contents include: 
+Tables of contents: 
 
 ```{tableofcontents}
 ```
