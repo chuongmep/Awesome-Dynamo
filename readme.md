@@ -32,7 +32,6 @@ Sharing, suggestions and contributions are always welcome! Please take a look at
 - Keep descriptions concise and clear (Keep It Simple, Stupid)
 - New categories, or improvements to the existing ones are also welcome
 
-
 <a href = "https://github.com/chuongmep/Awesome-Dynamo/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=chuongmep/Awesome-Dynamo"/>
 </a>
