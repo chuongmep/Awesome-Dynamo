@@ -22,6 +22,9 @@ chapters:
 - file: DynamoScripts/dynscripts.md
 - file: DynamoCheetSheet/dyncheetsheet.md
 - file: DynamoOpenSource/dynopensource.md
+- file: DynamoTemplete/dyntemplete.md
+  sections:
+    - file: DynamoTemplete/revittemplte.md
 - file: DynamoDeveloper/dyndeveloper.md
 - file: DynamoPython/dynpython.md
 - file: DynamoGenerativeDesign/dyngenerative.md

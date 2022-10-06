@@ -1,0 +1,4 @@
+# Dynamo Templete
+
+```{tableofcontents}
+```
