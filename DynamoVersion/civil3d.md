@@ -6,6 +6,6 @@
 | 2022 |  2.12.x | 2.12.x |
 | 2023 |  2.13.x | 2.13.x |
 
-```{warning}
+```{note}
 Use for reference.
 ```
