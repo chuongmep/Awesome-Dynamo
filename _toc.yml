@@ -2,7 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: readme
+root: intro
+defaults:  # The defaults key will be applied to all chapters and sub-sections
+  titlesonly: True
 # options:
 #   numbered: True
 chapters:
@@ -18,6 +20,7 @@ chapters:
   - file: DynamoPackage/dynpathpackage.md
   - file: DynamoPackage/dyndevelopackage.md
 - file: DynamoScripts/dynscripts.md
+- file: DynamoCheetSheet/dyncheetsheet.md
 - file: DynamoOpenSource/dynopensource.md
 - file: DynamoDeveloper/dyndeveloper.md
 - file: DynamoPython/dynpython.md
