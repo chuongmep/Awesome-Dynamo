@@ -24,13 +24,13 @@ chapters:
 - file: DynamoOpenSource/dynopensource.md
 - file: DynamoTemplete/dyntemplete.md
   sections:
-    - file: DynamoTemplete/revittemplte.md
+    - file: DynamoTemplete/pythonrevittemplte.md
+    - file: DynamoTemplete/zerotouchtemplete.md
 - file: DynamoDeveloper/dyndeveloper.md
 - file: DynamoPython/dynpython.md
 - file: DynamoGenerativeDesign/dyngenerative.md
 - file: DynamoML/dynml.md
 - file: DynamoChat/dynchar.md
-- file: DynamoAuthor/dynauthor.md
 - file: DynamoYoutube/dynyoutube.md
 - file: DynamoSupport/dynsupport.md
 - file: DynamoMeeting/dynmeeting.md
