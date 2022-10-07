@@ -1,5 +1,7 @@
 # Dynamo Support
 
+I want thanks all author bellow is help Dynamo better and better.
+
 - [Amoursol](https://github.com/Amoursol): Author at Autodesk, blogger Dynamo page
 - [Jacob Small](https://forum.dynamobim.com/u/jacobsmall/summary): Author at Autodesk
 - [Kulkul](https://forum.dynamobim.com/u/kulkul/summary): Leader at dynamo forum
