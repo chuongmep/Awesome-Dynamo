@@ -1,5 +1,6 @@
 # Welcome to Awesome Dynamo
 
+[![Jupyter Book Badge](images/jupyterbook.svg)](https://jupyterbook.org)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Dynamo](https://img.shields.io/badge/Dynamo-Autodesk-blue)
 
 ![](images/DynamoBackground.png)
