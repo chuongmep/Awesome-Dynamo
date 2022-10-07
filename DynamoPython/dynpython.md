@@ -1,5 +1,12 @@
 # Dynamo Python
 
+::::{grid}
+:gutter: 1
+:::{grid-item-card} Dynamo Python Primer
+[https://github.com/OliverEGreen/DynamoPythonPrimer](https://github.com/OliverEGreen/
+:::
+::::
+
 - Dynamo Python Primer: [https://dynamopythonprimer.gitbook.io/dynamo-python-primer](https://dynamopythonprimer.gitbook.io/dynamo-python-primer/)
 - Dynamo Revit API using Python: [https://giobel.github.io/Dynamo-Python/](https://giobel.github.io/Dynamo-Python/)
 - Dynamo Python: [https://github.com/architectBIM/BIMPlanet_RevitAPI/tree/Ru/Dynamo_Python](https://github.com/architectBIM/BIMPlanet_RevitAPI/tree/Ru/Dynamo_Python)
