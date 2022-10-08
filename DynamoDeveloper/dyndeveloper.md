@@ -1,4 +1,8 @@
 # Dynamo Developer
+```{admonition} Dynamo Developer
+:class: tip, dropdown
+https://developer.dynamobim.org/
+```
 
 - [AEC Hackathon Dynamo Workshop](https://github.com/radumg/AEC-hackathon-Dynamo-Workshop) - Learn how to develop for Dynamo in C# by building ZeroTouch & Explicit Nodes.
 
@@ -12,8 +16,6 @@ are out-of-reach.
 - [Design Script Presentation](https://github.com/Amoursol/dynamoDesignScript) - DesignScript workflows for Dynamo.
 
 - [Dynamo API SDK](https://github.com/chuongmep/Dynamo-api-chms) - A Repository of .chm (Windows Help Files) from the Dynamo API SDK. 
-
-- [Dynamo Developer](https://developer.dynamobim.org/) - a guide for developers who want to contribute to Dynamo.
 
 - [Dynamo Testing](https://github.com/DynamoDS/RevitTestFramework) - Unit Testing on Revit 
 
