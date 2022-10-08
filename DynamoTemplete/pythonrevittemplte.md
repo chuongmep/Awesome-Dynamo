@@ -1,5 +1,9 @@
 # Revit Python Script Templete
 
+```{admonition} Python Templete
+:class: tip, dropdown
+https://primer.dynamobim.org/10_Custom-Nodes/10-6_Python-Templates.html
+```
 ## Import Library
 
 ```py

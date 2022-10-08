@@ -1,6 +1,9 @@
 # Zero Touch Templete
 
-- Zero Touch Document - https://developer.dynamobim.org/03-Development-Options/3-4-zerotouch-nodes.html
+```{admonition} Zero Touch Document
+:class: tip, dropdown
+https://developer.dynamobim.org/03-Development-Options/3-4-zerotouch-nodes.html
+```
 ## Function
 
 ### Return one output result
