@@ -82,12 +82,57 @@ def flatten(x):
 ```
 
 ### Transaction
+
+````{tab-set}
+```{tab-item} Python
 ```py
 #Do some action in a Transaction
 TransactionManager.Instance.EnsureInTransaction(doc)
 #Do Action
 TransactionManager.Instance.TransactionTaskDone()
 ```
+
+```{tab-item} Zero Touch Node
+```cs
+doc = DocumentManager.Instance.CurrentDBDocument
+Autodesk.Revit.DB.Document doc = DocumentManager.Instance.CurrentDBDocument;
+TransactionManager.Instance.EnsureInTransaction(doc);
+// Do some thing
+TransactionManager.Instance.TransactionTaskDone();
+```
+```{tab-item} Revit API
+```cs
+using Autodesk.Revit.ApplicationServices;
+using Autodesk.Revit.Attributes;
+using Autodesk.Revit.DB;
+using Autodesk.Revit.UI;
+using Application = Autodesk.Revit.ApplicationServices.Application;
+public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
+{
+    try
+    {
+        _commandData = commandData;
+        _uiapp = commandData.Application;
+        _uidoc = commandData.Application.ActiveUIDocument;
+        _doc = commandData.Application.ActiveUIDocument.Document;
+        _app = commandData.Application.Application;
+        using (Autodesk.Revit.DB.Transaction tran = new Autodesk.Revit.DB.Transaction(_doc,"Acton"))
+        {
+            // Do some thing
+            tran.Commit();
+        }
+        Action();
+    }
+    catch (Exception e)
+    {
+        message = e.ToString();
+        return Result.Failed;
+    }
+    return Result.Succeeded;
+}
+```
+````
+
 
 ## Reference
 ```{note} More
