@@ -11,7 +11,7 @@ The Awesome Dynamo project celebrates and aggregates authors, essential and comp
 ```
 
 ## Acknowledgements
-Awesome Dynamo is supported by an open community of contributors, many of whom come from the Executable Books Community and the Dynamo community.
+Awesome Dynamo is supported by an open community of contributors, many of whom come from the Autodesk Community and the Dynamo community.
 
 ## Author
 Chuong is passionate about enhancing the performance of AEC industry by promoting a better utilization of building technology, towards automation of digital design processes. His focus is to work smarter and achieve the most effective practices to enhance data utilization and digital collaboration among AEC parties. He has been using has using Autodesk, Inc. With a detailed focus in Autodesk software, main is Revit API and the Dynamo Scripts support for user, Plugin Automatic complemented with Business Intelligence cloud solutions..
