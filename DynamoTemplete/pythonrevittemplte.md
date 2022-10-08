@@ -86,7 +86,13 @@ def flatten(x):
 ````{tab-set}
 ```{tab-item} Python
 ```py
+import cld
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
 #Do some action in a Transaction
+doc = DocumentManager.Instance.CurrentDBDocument
 TransactionManager.Instance.EnsureInTransaction(doc)
 #Do Action
 TransactionManager.Instance.TransactionTaskDone()
@@ -94,6 +100,9 @@ TransactionManager.Instance.TransactionTaskDone()
 
 ```{tab-item} Zero Touch Node
 ```cs
+using Autodesk.Revit.DB;
+using RevitServices.Persistence;
+using RevitServices.Transactions;
 doc = DocumentManager.Instance.CurrentDBDocument
 Autodesk.Revit.DB.Document doc = DocumentManager.Instance.CurrentDBDocument;
 TransactionManager.Instance.EnsureInTransaction(doc);
