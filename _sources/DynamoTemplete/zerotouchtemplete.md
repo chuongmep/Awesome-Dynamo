@@ -7,12 +7,23 @@ https://developer.dynamobim.org/03-Development-Options/3-4-zerotouch-nodes.html
 ## Function
 
 ### Return one output result
-``` cs
+
+````{tab-set}
+```{tab-item} CSharp
+```cs
 public static double MultiplyByTwo(double inputNumber = 2.0) 
 {
     return inputNumber * 2.0;
 }
 ```
+
+```{tab-item} Python
+```py
+def MultiplyByTwo(inputNumber =2.0):
+    return inputNumber *2.0
+```
+````
+
 `Result:`
 ```{toggle}
 4
