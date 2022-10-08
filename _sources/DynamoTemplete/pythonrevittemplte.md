@@ -86,7 +86,7 @@ def flatten(x):
 ````{tab-set}
 ```{tab-item} Python
 ```py
-import cld
+import clr
 clr.AddReference('RevitServices')
 import RevitServices
 from RevitServices.Persistence import DocumentManager
