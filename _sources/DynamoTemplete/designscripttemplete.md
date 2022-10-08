@@ -7,7 +7,7 @@ This section provide for you templete to easy crete new one script.
 height: 300px
 name: directive-fig
 ---
-Preview Dynamo Templete
+Preview Dynamo templete ? Open pull request now!
 ```
 
 ```{button-link} https://www.mediafire.com/file/edqxb8ymthuhazi/Template.dyn/file
