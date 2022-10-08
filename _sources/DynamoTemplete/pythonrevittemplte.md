@@ -1,44 +1,50 @@
-# Dynamo Revit Python Script Templete
+# Revit Python Script Templete
+
+## Import Library
 
 ```py
 import clr
-
 clr.AddReference('RevitAPI')
 from Autodesk.Revit.DB import *
 from Autodesk.Revit.DB.Structure import *
-
 clr.AddReference('RevitAPIUI')
 from Autodesk.Revit.UI import *
-
 clr.AddReference('System')
 from System.Collections.Generic import List
-
 clr.AddReference('RevitNodes')
 import Revit
 clr.ImportExtensions(Revit.GeometryConversion)
 clr.ImportExtensions(Revit.Elements)
-
 clr.AddReference('RevitServices')
 import RevitServices
 from RevitServices.Persistence import DocumentManager
 from RevitServices.Transactions import TransactionManager
-
 import System 
 from System.Collections.Generic import *
-
 import sys
 sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
 
+```
+## App,UIApp,Document,UIDocument
+
+```py
 doc = DocumentManager.Instance.CurrentDBDocument
 uidoc=DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
 uiapp = DocumentManager.Instance.CurrentUIApplication
 app = DocumentManager.Instance.CurrentUIApplication.Application
+```
+## Function
 
+### Convert To List
+```py
 def tolist(obj1):
 	if hasattr(obj1,'__iter__') : return obj1
 	else : return [obj1]
-# toList = lambda x : x if hasattr(x, '__iter__') else [x]
-# element = toList(UnwrapElement(IN[0]))
+element = UnwrapElement(tolist(IN[0]))
+```
+
+### Flatten
+```py
 def flatten(x):
     result = []
     for el in x:
@@ -47,17 +53,17 @@ def flatten(x):
         else:
             result.append(el)
     return result
-#Preparing input from dynamo to revit
-element = UnwrapElement(tolist(IN[0]))
+```
 
+### Transaction
+```py
 #Do some action in a Transaction
 TransactionManager.Instance.EnsureInTransaction(doc)
 #Do Action
 TransactionManager.Instance.TransactionTaskDone()
-
-OUT = element
 ```
 
+## Reference
 ```{note} More
 https://primer.dynamobim.org/10_Custom-Nodes/10-6_Python-Templates.html
 ```
