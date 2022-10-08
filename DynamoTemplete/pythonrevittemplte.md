@@ -1,8 +1,6 @@
 # Revit Python Script Templete
 
 ## Import Library
-```{admonition} Import Library
-:class: dropdown
 
 ```py
 import clr
@@ -28,8 +26,7 @@ sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
 
 ```
 ## App,UIApp,Document,UIDocument
-```{admonition} Define App,UIApp,Document,UIDocument
-:class: dropdown
+
 ```py
 doc = DocumentManager.Instance.CurrentDBDocument
 uidoc=DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
@@ -38,8 +35,7 @@ app = DocumentManager.Instance.CurrentUIApplication.Application
 ```
 ## Function
 
-```{admonition} Convert To List
-:class: dropdown
+### Convert To List
 ```py
 def tolist(obj1):
 	if hasattr(obj1,'__iter__') : return obj1
@@ -47,8 +43,7 @@ def tolist(obj1):
 element = UnwrapElement(tolist(IN[0]))
 ```
 
-```{admonition} Flatten
-:class: dropdown
+### Flatten
 ```py
 def flatten(x):
     result = []
@@ -60,15 +55,13 @@ def flatten(x):
     return result
 ```
 
-```{admonition} Transaction
-:class: dropdown
+### Transaction
 ```py
 #Do some action in a Transaction
 TransactionManager.Instance.EnsureInTransaction(doc)
 #Do Action
 TransactionManager.Instance.TransactionTaskDone()
 ```
-
 
 ## Reference
 ```{note} More
