@@ -16,7 +16,7 @@ This topic share experience resolve top problem common in Dynamo.
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoResolve"
    crossorigin="anonymous"
 />
 ```

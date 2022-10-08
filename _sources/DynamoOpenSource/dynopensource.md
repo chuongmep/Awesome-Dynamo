@@ -175,7 +175,7 @@ net Dynamo Package.
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoOpenSource"
    crossorigin="anonymous"
 />
 ```

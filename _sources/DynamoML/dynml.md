@@ -19,7 +19,7 @@ https://forum.dynamobim.com/t/about-the-machine-learning-category/56118
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoML"
    crossorigin="anonymous"
 />
 ```
