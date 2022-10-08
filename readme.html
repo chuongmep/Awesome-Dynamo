@@ -42,6 +42,40 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "chuongmep/awesome-dynamo");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -52,7 +86,6 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1. How to Read This Book" href="how_to_read.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -106,8 +139,8 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     Welcome to Awesome Dynamo
                 </a>
             </li>
@@ -115,22 +148,17 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="how_to_read.html">
-   1. How to Read This Book
+   How To Read This Book
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="DynamoPage/dynpage.html">
-   2. h1 Heading 8-)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="DynamoVersion/dynversion.html">
-   3. h1 Heading 8-)
+   Dynamo  Main Page
   </a>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="DynamoPackage/dynpackage.html">
-   4. h1 Heading 8-)
+  <a class="reference internal" href="DynamoVersion/dynversion.html">
+   Dynamo Version
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -139,50 +167,119 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
+    <a class="reference internal" href="DynamoVersion/civil3d.html">
+     Dynamo Civil3D Version
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="DynamoVersion/revit.html">
+     Dynamo Revit Version
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="DynamoVersion/formit.html">
+     Dynamo Formit Version
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="DynamoPackage/dynpackage.html">
+   Dynamo Package
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
     <a class="reference internal" href="DynamoPackage/dynpathpackage.html">
-     4.2. h1 Heading 8-)
+     Dynamo Path Package
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="DynamoPackage/dyndevelopackage.html">
-     4.3. h1 Heading 8-)
+     Dynamo Package Page
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="DynamoOpenSource/dynopensource.html">
-   5. h1 Heading 8-)
+   Dynamo Open Source
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="DynamoTemplete/dyntemplete.html">
+   Dynamo Templete
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="DynamoTemplete/pythonrevittemplte.html">
+     Dynamo Revit Python Script Templete
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="DynamoTemplete/zerotouchtemplete.html">
+     Zero Touch Templete
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DynamoScripts/dynscripts.html">
+   Dynamo Scripts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DynamoCheetSheet/dyncheetsheet.html">
+   Dynamo Cheet Sheet
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DynamoDeveloper/dyndeveloper.html">
+   Dynamo Developer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DynamoPython/dynpython.html">
+   Dynamo Python
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="DynamoGenerativeDesign/dyngenerative.html">
-   6. h1 Heading 8-)
+   Dynamo Generative Design
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="DynamoML/dynml.html">
-   7. h1 Heading 8-)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="DynamoChat/dynchar.html">
-   8. h1 Heading 8-)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="DynamoAuthor/dynauthor.html">
-   9. h1 Heading 8-)
+   Dynamo Machine Learning
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="DynamoSupport/dynsupport.html">
-   10. h1 Heading 8-)
+   Dynamo Support
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DynamoMeeting/dynmeeting.html">
+   Dynamo Meeting
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="DynamoShortcuts/dynshortcuts.html">
-   11. Workspace view based CTRL key combinations (hold ctrl key and press the additional keys listed):
+   Dynamo Keyboard Shortcuts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DynamoResolve/dynresolve.html">
+   Dynamo Resolve Problem
   </a>
  </li>
 </ul>
@@ -379,30 +476,32 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Welcome to Awesome Dynamo
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#introduction">
    Introduction
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#acknowledgements">
    Acknowledgements
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#author">
    Author
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#contribute">
      Contribute
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#contribution-guidelines">
+       Contribution Guidelines
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -425,30 +524,32 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Welcome to Awesome Dynamo
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#introduction">
    Introduction
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#acknowledgements">
    Acknowledgements
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#author">
    Author
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#contribute">
      Contribute
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#contribution-guidelines">
+       Contribution Guidelines
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -462,45 +563,41 @@ title="Print to PDF"
                 
               <div>
                 
-  <section id="welcome-to-awesome-dynamo">
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-awesome-dynamo">
 <h1>Welcome to Awesome Dynamo<a class="headerlink" href="#welcome-to-awesome-dynamo" title="Permalink to this headline">#</a></h1>
+<p><a class="reference external" href="https://jupyterbook.org"><img alt="Jupyter Book Badge" src="_images/jupyterbook.svg" /></a>
+<a class="reference external" href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a> <img alt="Dynamo" src="https://img.shields.io/badge/Dynamo-Autodesk-blue" /></p>
 <p><img alt="" src="_images/DynamoBackground.png" /></p>
-</section>
 <section id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h1>
-<p>The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn.</p>
-<p>Tables of contents:</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="how_to_read.html">1. How to Read This Book</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoPage/dynpage.html">2. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoVersion/dynversion.html">3. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoPackage/dynpackage.html">4. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoOpenSource/dynopensource.html">5. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoGenerativeDesign/dyngenerative.html">6. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoML/dynml.html">7. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoChat/dynchar.html">8. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoAuthor/dynauthor.html">9. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoSupport/dynsupport.html">10. h1 Heading 8-)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoShortcuts/dynshortcuts.html">11. Workspace view based CTRL key combinations (hold ctrl key and press the additional keys listed):</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoShortcuts/dynshortcuts.html#workspace-view-single-key-shortcuts">12. Workspace view single key shortcuts:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoShortcuts/dynshortcuts.html#workspace-mouse-interaction">13. Workspace Mouse Interaction:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoShortcuts/dynshortcuts.html#geometry-preview-ctrl-key-combinations-hold-ctrl-key-and-press-the-additional-keys-listed">14. Geometry Preview CTRL key combinations (hold ctrl key and press the additional keys listed):</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoShortcuts/dynshortcuts.html#geometry-preview-single-key-shortcuts">15. Geometry Preview single key shortcuts:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DynamoShortcuts/dynshortcuts.html#deprecated-keyboard-shortcuts">16. Deprecated Keyboard Shortcuts:</a></li>
-</ul>
-</div>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<p>The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn, apply to work and explore power of Dynamo.</p>
+<p>Get Start Now =&gt;</p>
 </section>
 <section id="acknowledgements">
-<h1>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this headline">#</a></h1>
-<p>Awesome Dynamo is supported by an open community of contributors, many of whom come from the Executable Books Community and the Dynamo community.</p>
+<h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this headline">#</a></h2>
+<p>Awesome Dynamo is supported by an open community of contributors, many of whom come from the Autodesk Community and the Dynamo community.</p>
 </section>
 <section id="author">
-<h1>Author<a class="headerlink" href="#author" title="Permalink to this headline">#</a></h1>
+<h2>Author<a class="headerlink" href="#author" title="Permalink to this headline">#</a></h2>
 <p>Chuong is passionate about enhancing the performance of AEC industry by promoting a better utilization of building technology, towards automation of digital design processes. His focus is to work smarter and achieve the most effective practices to enhance data utilization and digital collaboration among AEC parties. He has been using has using Autodesk, Inc. With a detailed focus in Autodesk software, main is Revit API and the Dynamo Scripts support for user, Plugin Automatic complemented with Business Intelligence cloud solutions..</p>
 <section id="contribute">
-<h2>Contribute<a class="headerlink" href="#contribute" title="Permalink to this headline">#</a></h2>
-<p>I’m happy if anyone contribute to this resouces. Project writed by <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">JupyterBook</a></p>
+<h3>Contribute<a class="headerlink" href="#contribute" title="Permalink to this headline">#</a></h3>
+<p>Sharing, suggestions and contributions are always welcome! Please take a look at the <strong>Contribution Guidelines</strong> and quality standard first. Thanks to all contributors, you’re awesome and wouldn’t be possible without you!</p>
+<section id="contribution-guidelines">
+<h4>Contribution Guidelines<a class="headerlink" href="#contribution-guidelines" title="Permalink to this headline">#</a></h4>
+<p>Please ensure your pull request adheres to the following guidelines:</p>
+<ul class="simple">
+<li><p>Make an individual pull request for each suggestion</p></li>
+<li><p>Use the following format for commit message: Add FeatureName</p></li>
+<li><p>List, after your addition, should be alphabetically</p></li>
+<li><p>Keep descriptions concise and clear (Keep It Simple, Stupid)</p></li>
+<li><p>New categories, or improvements to the existing ones are also welcome</p></li>
+</ul>
+<a href = "https://github.com/chuongmep/Awesome-Dynamo/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=chuongmep/Awesome-Dynamo"/>
+</a>
+</section>
+</section>
 </section>
 </section>
 
@@ -531,13 +628,6 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="how_to_read.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">1. </span>How to Read This Book</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
 </div>
             </footer>
         </div>
@@ -545,7 +635,7 @@ title="Print to PDF"
     <div class="footer-content row">
         <footer class="col footer"><p>
   
-    By Chuongmep<br/>
+    By chuongmep.com<br/>
   
       &copy; Copyright 2022.<br/>
 </p>

@@ -1,11 +1,28 @@
-# Welcome to your Jupyter Book
+# Welcome to Awesome Dynamo
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+![](images/DynamoBackground.png)
 
-Check out the content pages bundled with this sample book to see more.
+## Introduction
+The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn, apply to work and explore power of Dynamo.
+
+## Tables Of Contents
 
 ```{tableofcontents}
 ```
+
+## Acknowledgements
+Awesome Dynamo is supported by an open community of contributors, many of whom come from the Autodesk Community and the Dynamo community.
+
+## Author
+Chuong is passionate about enhancing the performance of AEC industry by promoting a better utilization of building technology, towards automation of digital design processes. His focus is to work smarter and achieve the most effective practices to enhance data utilization and digital collaboration among AEC parties. He has been using has using Autodesk, Inc. With a detailed focus in Autodesk software, main is Revit API and the Dynamo Scripts support for user, Plugin Automatic complemented with Business Intelligence cloud solutions..
+
+### Contribute
+Sharing, suggestions and contributions are always welcome! Please take a look at the **Contribution Guidelines** and quality standard first. Thanks to all contributors, you're awesome and wouldn't be possible without you!
+
+Please ensure your pull request adheres to the following guidelines:
+
+- Make an individual pull request for each suggestion
+- Use the following format for commit message: Add FeatureName
+- List, after your addition, should be alphabetically
+- Keep descriptions concise and clear (Keep It Simple, Stupid)
+- New categories, or improvements to the existing ones are also welcome

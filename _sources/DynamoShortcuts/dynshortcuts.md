@@ -1,4 +1,6 @@
-# Workspace view based CTRL key combinations (hold ctrl key and press the additional keys listed):
+
+# Dynamo Keyboard Shortcuts
+## Workspace view based CTRL key combinations (hold ctrl key and press the additional keys listed):
 
 CTRL + A Select all nodes in workspace.
 
@@ -41,7 +43,7 @@ CTRL + 0 Zoom extents if nothing selected, Zoom to origin if already at extents,
 CTRL + = Zoom in.
 
 CTRL + SHIFT + UPARROW Toggle console.
-# Workspace view single key shortcuts:
+## Workspace view single key shortcuts:
 
 Esc (hold) Toggle to geometry preview – will revert to workspace view once released.
 
@@ -52,7 +54,7 @@ F5 Run the graph (when in manual execution mode.
 Delete Removes the selected node(s) from the workspace.
 
 F1 Displays the node help documentation for the last selected node in the workspace.
-# Workspace Mouse Interaction:
+## Workspace Mouse Interaction:
 
 Left click Select node.
 
@@ -83,7 +85,7 @@ Shift + Left Mouse on node body Add to selection.
 Left Mouse drag to create a box from left to right Select node(s), note(s), groups which are completely contained inside the box. Note solid box lines.
 
 Left Mouse drag to create a box from right to left Select node(s), note(s), group(s) which are inside or partially inside the box. Note dashed box lines.
-# Geometry Preview CTRL key combinations (hold ctrl key and press the additional keys listed):
+## Geometry Preview CTRL key combinations (hold ctrl key and press the additional keys listed):
 
 CTRL + A Select all nodes in the workspace and allow direct geometry manipulation as applicable to the elements in the display.
 
@@ -128,10 +130,10 @@ CTRL + 0 Zoom extents if nothing selected. Zoom to selected geometry if any is s
 CTRL + = Zoom in towards pivot point.
 
 CTRL + SHIFT + UPARROW Toggle console.
-# Geometry Preview single key shortcuts:
+## Geometry Preview single key shortcuts:
 
 Delete Removes the selected node(s) from the workspace.
-# Deprecated Keyboard Shortcuts:
+## Deprecated Keyboard Shortcuts:
 
 CTRL + T Opens the presets window (deprecated and not serialized into the file as of 2.0, but still accessible via shortcut in 2.1). Requires a node capable of having a preset be selected in order to avoid an error message, so it’s unlikely you’ll manage this with selection from the geometry side without use of CTRL + A or TAB keyboard shortcuts.
 ## Document

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>4.3. h1 Heading 8-) &#8212; Awesome Dynamo</title>
+    <title>Dynamo Package Page &#8212; Awesome Dynamo</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -42,6 +42,40 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "chuongmep/awesome-dynamo");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -52,8 +86,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="5. h1 Heading 8-)" href="../DynamoOpenSource/dynopensource.html" />
-    <link rel="prev" title="4.2. h1 Heading 8-)" href="dynpathpackage.html" />
+    <link rel="next" title="Dynamo Open Source" href="../DynamoOpenSource/dynopensource.html" />
+    <link rel="prev" title="Dynamo Path Package" href="dynpathpackage.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -108,7 +142,7 @@ const thebe_selector_output = ".output, .cell_output"
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
-                <a class="reference internal" href="../readme.html">
+                <a class="reference internal" href="../intro.html">
                     Welcome to Awesome Dynamo
                 </a>
             </li>
@@ -116,69 +150,138 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../how_to_read.html">
-   1. How to Read This Book
+   How To Read This Book
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoPage/dynpage.html">
-   2. h1 Heading 8-)
+   Dynamo  Main Page
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../DynamoVersion/dynversion.html">
-   3. h1 Heading 8-)
+   Dynamo Version
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoVersion/civil3d.html">
+     Dynamo Civil3D Version
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoVersion/revit.html">
+     Dynamo Revit Version
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoVersion/formit.html">
+     Dynamo Formit Version
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="dynpackage.html">
-   4. h1 Heading 8-)
+   Dynamo Package
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="dynpathpackage.html">
-     4.2. h1 Heading 8-)
+     Dynamo Path Package
     </a>
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     4.3. h1 Heading 8-)
+     Dynamo Package Page
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoOpenSource/dynopensource.html">
-   5. h1 Heading 8-)
+   Dynamo Open Source
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../DynamoTemplete/dyntemplete.html">
+   Dynamo Templete
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoTemplete/pythonrevittemplte.html">
+     Dynamo Revit Python Script Templete
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoTemplete/zerotouchtemplete.html">
+     Zero Touch Templete
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoScripts/dynscripts.html">
+   Dynamo Scripts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoCheetSheet/dyncheetsheet.html">
+   Dynamo Cheet Sheet
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoDeveloper/dyndeveloper.html">
+   Dynamo Developer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoPython/dynpython.html">
+   Dynamo Python
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoGenerativeDesign/dyngenerative.html">
-   6. h1 Heading 8-)
+   Dynamo Generative Design
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoML/dynml.html">
-   7. h1 Heading 8-)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoChat/dynchar.html">
-   8. h1 Heading 8-)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoAuthor/dynauthor.html">
-   9. h1 Heading 8-)
+   Dynamo Machine Learning
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoSupport/dynsupport.html">
-   10. h1 Heading 8-)
+   Dynamo Support
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoMeeting/dynmeeting.html">
+   Dynamo Meeting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoShortcuts/dynshortcuts.html">
+   Dynamo Keyboard Shortcuts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoResolve/dynresolve.html">
+   Dynamo Resolve Problem
   </a>
  </li>
 </ul>
@@ -375,38 +478,15 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#h2-heading">
-   4.3.1. h2 Heading
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Dynamo Package Page
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#h3-heading">
-     4.3.1.1. h3 Heading
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#h4-heading">
-       4.3.1.1.1. h4 Heading
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#h5-heading">
-         4.3.1.1.1.1. h5 Heading
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h6 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#h6-heading">
-           4.3.1.1.1.1.1. h6 Heading
-          </a>
-         </li>
-        </ul>
-       </li>
-      </ul>
-     </li>
-    </ul>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dynamo-package-useful">
+   Dynamo Package Useful
+  </a>
  </li>
 </ul>
 
@@ -417,7 +497,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>h1 Heading 8-)</h1>
+                <h1>Dynamo Package Page</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -427,38 +507,15 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#h2-heading">
-   4.3.1. h2 Heading
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Dynamo Package Page
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#h3-heading">
-     4.3.1.1. h3 Heading
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#h4-heading">
-       4.3.1.1.1. h4 Heading
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#h5-heading">
-         4.3.1.1.1.1. h5 Heading
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h6 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#h6-heading">
-           4.3.1.1.1.1.1. h6 Heading
-          </a>
-         </li>
-        </ul>
-       </li>
-      </ul>
-     </li>
-    </ul>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dynamo-package-useful">
+   Dynamo Package Useful
+  </a>
  </li>
 </ul>
 
@@ -470,23 +527,64 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="h1-heading-8">
-<h1><span class="section-number">4.3. </span>h1 Heading 8-)<a class="headerlink" href="#h1-heading-8" title="Permalink to this headline">#</a></h1>
-<section id="h2-heading">
-<h2><span class="section-number">4.3.1. </span>h2 Heading<a class="headerlink" href="#h2-heading" title="Permalink to this headline">#</a></h2>
-<section id="h3-heading">
-<h3><span class="section-number">4.3.1.1. </span>h3 Heading<a class="headerlink" href="#h3-heading" title="Permalink to this headline">#</a></h3>
-<section id="h4-heading">
-<h4><span class="section-number">4.3.1.1.1. </span>h4 Heading<a class="headerlink" href="#h4-heading" title="Permalink to this headline">#</a></h4>
-<section id="h5-heading">
-<h5><span class="section-number">4.3.1.1.1.1. </span>h5 Heading<a class="headerlink" href="#h5-heading" title="Permalink to this headline">#</a></h5>
-<section id="h6-heading">
-<h6><span class="section-number">4.3.1.1.1.1.1. </span>h6 Heading<a class="headerlink" href="#h6-heading" title="Permalink to this headline">#</a></h6>
+  <section class="tex2jax_ignore mathjax_ignore" id="dynamo-package-page">
+<h1>Dynamo Package Page<a class="headerlink" href="#dynamo-package-page" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p>Dynamo Package Manager  - <a class="reference external" href="https://dynamopackages.com/">https://dynamopackages.com/</a></p></li>
+</ul>
 </section>
-</section>
-</section>
-</section>
-</section>
+<section class="tex2jax_ignore mathjax_ignore" id="dynamo-package-useful">
+<h1>Dynamo Package Useful<a class="headerlink" href="#dynamo-package-useful" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p>Ampersand - Dynamo v 2.10 / Nodes for lists management and geometry including applications to architectural paneling and 2D polycurve analysis.</p></li>
+<li><p><a class="reference external" href="http://archi-lab.net">archi-lab.net</a> - Set of practical nodes by Konrad K Sobon</p></li>
+<li><p>Bakery - Bakery is a huge repository of BIM and VDC management tools, covering a wide range of workflows and automations.</p></li>
+<li><p>Bang!- Bang! is built for Dynamo 1.3.3 and 2.0.x and Revit 2018+. This package provides access to Revit warnings utilizing methods added in the Revit 2018 API. That being said, these nodes will only work in Revit 2018 and higher. Why Bang? Bang stands for the “!” symbol and appears on warning signs. :) Bang! is authored by John Pierson (&#64;60secondrevit) of Parallax Team (<a class="reference external" href="http://www.parallaxteam.com/">http://www.parallaxteam.com/</a>) and <a class="reference external" href="http://sixtysecondrevit.com">sixtysecondrevit.com</a>.</p></li>
+<li><p>BattleBIM -  New Node: I added one additional node called “TextNote.RemoveLeaders” with this now user should be able Remove all the Leaders from TextNotes in bulk. Let me know if you have any comments or questions at <a class="reference external" href="mailto:lingkonn&#37;&#52;&#48;gmail&#46;com">lingkonn<span>&#64;</span>gmail<span>&#46;</span>com</a> Refer to the following url for all the examples <a class="reference external" href="https://www.facebook.com/groups/DynamoSingapore/">https://www.facebook.com/groups/DynamoSingapore/</a></p></li>
+<li><p>bimorphNodes - BimorphNodes are a collection of powerful utility nodes that extend Dynamo for Revit.</p></li>
+<li><p>Bridge - A library for creating and editing solids made of cross sections in terms of bridges and tunnels. See also extra example files</p></li>
+<li><p>BumbleBee - Dynamo 2.0.1 - Dynamo and Excel Interop developed by Konrad K. Sobon. Instructions and totorials can be found at <a class="reference external" href="http://www.archi-lab.net">www.archi-lab.net</a>.</p></li>
+<li><p>BVN - A collection of over 50+ Dynamo utility nodes developed by BVN Architecture with an emphasis on the interoperability between Revit, Rhino and Excel</p></li>
+<li><p>Chynamo - Chynamo provides faster and more efficient ways in BIM data management. Chynamo also has integrated useful nodes from other packages.</p></li>
+<li><p>Clockwork for Dynamo 1.x - …</p></li>
+<li><p>Clockwork for Dynamo 2.x - Clockwork is a collection of 450+ custom nodes. It contains many Revit-related nodes, but also lots of nodes for various other purposes such as list management, mathematical operations, string operations, geometric operations (mainly bounding boxes, planes, points, surfaces, UVs and vectors) and paneling.</p></li>
+<li><p>Data-Shapes - Tested against Revit 2016-2022 + and Dynamo 2.x // UI Nodes now usable in Civil 3D, sandbox and Formit environments as well!! – Collection of nodes that aims to enhance the interaction with revit and UI creation for dynamo scripts .</p></li>
+<li><p>DynaMaps - A straightforward way to get site data inside Dynamo. Contains a view extension and dedicated nodes. Built for Dynamo 2.x</p></li>
+<li><p>DynaMEP - DynaMEP is a solution for user MEP in the Dynamo environment.The solution is designed to support practical, technical, logical, and geometry issues expansion for Autodesk ACE with over 300++ node.</p></li>
+<li><p>Dynamo Text - A library for creating text in Dynamo.</p></li>
+<li><p>DynamoUnfold - DynamoUnfold : Library for building topology from sets of surfaces and unfolding them using Protogeometry tools in Dynamo.</p></li>
+<li><p>DynaStandard_public - For a Dynamo 1.3 version please refer to the github link below. For none loading issue refer to readme within DynaStandard extra package folder.</p></li>
+<li><p>DynaTools - DynaTools is a comprehensive group of nodes to perform day by day activities: - Selection - Parameters extraction - Database connection - Collectors - MEP Tools - Civil Tools - QAQC - ViewTools and many others.</p></li>
+<li><p>EvolveLAB - Rooms packing space planning generative design mep assemblies sheets views viewports creation evolvelab .</p></li>
+<li><p>Fabrication Bolognese - A package created by Mechanical Inc. to aid in the use of fabrication parts within Revit.</p></li>
+<li><p>GenerativeDesign - This package contains things to visualize results in the Dynamo viewport.</p></li>
+<li><p>Genius Loci - Export import pdf dwg print material graphics dimension coordinate mep</p></li>
+<li><p>Honeybee - Honeybee connects Revit and DynamoBIM to Radiance and OpenStudio (EnergyPlus) for daylight and energy simulation.</p></li>
+<li><p>Hot Gear - 50+ practical node in order to increase Revit workflow.</p></li>
+<li><p>Ladybug - Ladybug is a plugin for weather data and environmental analysis. See release notes at discourse.ladybug.tools</p></li>
+<li><p>LunchBox for Dynamo - Parametric math machine learning curtain panels xyz domain numbers random json xml excel revit collector</p></li>
+<li><p>MEPover - A package that focuses on adding some nodes for MEP, but also some nodes useful for all disciplines.</p></li>
+<li><p>MeshToolkit - Mesh geometry object</p></li>
+<li><p>Modelical - View productivity wall mep pipe duct color delete workset sheet</p></li>
+<li><p>Monocle - Monocle is a View Extension for Dynamo 2.0.x. Monocle contains a set of useful tools for package identification, graph cleanup and more! Monocle is authored by John Pierson (&#64;60secondrevit) of Parallax Team (<a class="reference external" href="http://www.parallaxteam.com/">http://www.parallaxteam.com/</a>) and <a class="reference external" href="http://designtechunraveled.com">designtechunraveled.com</a>.</p></li>
+<li><p>Orchid - Orchid is a solution designed for use in the Dynamo environment. The solution is designed to support practical, technical, geometrical, logical, and mathematical issues. The solution contains functions to solve data handling in Revit projects, Revit families, and materials in Revit.</p></li>
+<li><p>Prorubim Common Kit - Node set with various Dynamo nodes for interacting with Revit</p></li>
+<li><p>Prorubim DS Common Kit - Node set with additional app independent universal Dynamo nodes</p></li>
+<li><p>Rhynamo - New support has been added for Rhino 5.0 and 6.0 files. Rhynamo uses McNeel’s OpenNURBS library to expose new nodes for translating Rhino geometry for use within Dynamo.</p></li>
+<li><p>Rhythm - Rhythm is a set of useful nodes to help your Revit project maintain a good rhythm with Dynamo.</p></li>
+<li><p>RIE - Genius Loci is a compilation of +300 custom nodes. It allows to export from Revit, import, interact with linked files and Revit documents, manage materials and graphics, and automate dimensions.</p></li>
+<li><p>Sastrugi - Helpful nodes to generate Structure from Form.</p></li>
+<li><p>Slingshot! for Dynamo - Slingshot! is a node library for connecting Dynamo (0.7.4) to external Relational Database Management Systems (RDBMS).</p></li>
+<li><p><a class="reference external" href="https://speckle.guide/user/dynamo.html">Speckle for Dynamo</a> - Speckle for Dynamo is not available from the package manager anymore!</p></li>
+<li><p><a class="reference external" href="https://github.com/dimven/SpringNodes">spring nodes</a> - Spring Nodes focuses on enhancing Dynamo’s interaction with Revit and exploring any means that can help accelerate BIM work-flows.</p></li>
+<li><p>SteamNodes - A set of various nodes to implement a Dynamo workflow in your job.</p></li>
+<li><p>Synthesize toolkit - Automate many repetitive tasks in Revit, divided into sections in the extra folder. Browse to the extra folder in Dynamo Player to use the Main Toolkit features (K-Join, Parameters, K-Laser….etc)</p></li>
+<li><p>Synthetic - Synthetic provides Dynamo nodes for manipulating data, and accessing Revit API objects.</p></li>
+<li><p>Universo_BIM - Mep pipe duct cabletray conduit wall opening collision report</p></li>
+<li><p>WhatTheNode - Contains a node to assist with finding what package custom nodes come in. Made possible with <a class="reference external" href="http://dynamonodes.com">dynamonodes.com</a></p></li>
+<li><p>WombatDynamo - Woods Bagot Dynamo Utilities - maintained by Andrea Tassera</p></li>
+<li><p><a class="reference external" href="http://Zhukoven.com">Zhukoven.com</a> - Zhukoven is a custom Dynamo 2.3.0+ package for the Revit users. It helps automate repeatable tasks, overcome Revit and Dynamo limitations, and provides you with workarounds to increase productivity and save time.</p></li>
+</ul>
 </section>
 
     <script type="text/x-thebe-config">
@@ -520,13 +618,13 @@ title="Print to PDF"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><span class="section-number">4.2. </span>h1 Heading 8-)</p>
+            <p class="prev-next-title">Dynamo Path Package</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="../DynamoOpenSource/dynopensource.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">5. </span>h1 Heading 8-)</p>
+        <p class="prev-next-title">Dynamo Open Source</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
@@ -537,7 +635,7 @@ title="Print to PDF"
     <div class="footer-content row">
         <footer class="col footer"><p>
   
-    By Chuongmep<br/>
+    By chuongmep.com<br/>
   
       &copy; Copyright 2022.<br/>
 </p>
