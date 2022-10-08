@@ -1,11 +1,9 @@
 # Dynamo Python
 
-::::{grid}
-:gutter: 1
-:::{grid-item-card} Dynamo Python Primer
-[https://github.com/OliverEGreen/DynamoPythonPrimer](https://github.com/OliverEGreen/
-:::
-::::
+```{admonition} Dynamo Python Primer
+:class: tip, dropdown
+https://github.com/OliverEGreen/DynamoPythonPrimer
+```
 
 - [Dynamo Python Primer](https://dynamopythonprimer.gitbook.io/dynamo-python-primer/) - Using Python will take your Dynamo definitions to the next level
 - [Dynamo Revit API using Python](https://giobel.github.io/Dynamo-Python/) - Example with Dynamo Python
