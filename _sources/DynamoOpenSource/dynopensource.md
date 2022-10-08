@@ -14,7 +14,7 @@
 :::
 ::::
 
-## Open Source In The Word
+## Open Source In The World
 
 - [Archi-lab.net](https://github.com/ksobon/archilab) - This is the official Repository for archi-lab.
 net Dynamo Package.
