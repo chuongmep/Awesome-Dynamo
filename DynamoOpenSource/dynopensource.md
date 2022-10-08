@@ -3,22 +3,15 @@
 ## Main Open Source
 
 ::::{grid}
-:gutter: 4
+:gutter: 2
 
 :::{grid-item-card} Dynamo Core
-
 [https://github.com/DynamoDS/Dynamo](https://github.com/DynamoDS/Dynamo)
-
 :::
 
 :::{grid-item-card}  Dynamo Revit
 [https://github.com/DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit)
 :::
-
-<!-- :::{grid-item-card} Dynamo SolidWorks
-[https://github.com/weianweigan/DynamoSolidWorks](https://github.com/weianweigan/DynamoSolidWorks)
-::: -->
-
 ::::
 
 ## Open Source In The Word

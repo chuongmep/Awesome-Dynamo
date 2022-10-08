@@ -18,3 +18,11 @@ Chuong is passionate about enhancing the performance of AEC industry by promotin
 
 ### Contribute
 Sharing, suggestions and contributions are always welcome! Please take a look at the **Contribution Guidelines** and quality standard first. Thanks to all contributors, you're awesome and wouldn't be possible without you!
+
+Please ensure your pull request adheres to the following guidelines:
+
+- Make an individual pull request for each suggestion
+- Use the following format for commit message: Add FeatureName
+- List, after your addition, should be alphabetically
+- Keep descriptions concise and clear (Keep It Simple, Stupid)
+- New categories, or improvements to the existing ones are also welcome
