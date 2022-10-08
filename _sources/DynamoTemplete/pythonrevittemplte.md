@@ -5,7 +5,8 @@
 https://primer.dynamobim.org/10_Custom-Nodes/10-6_Python-Templates.html
 ```
 ## Import Library
-
+````{tab-set}
+```{tab-item} Python
 ```py
 import clr
 clr.AddReference('RevitAPI')
@@ -29,14 +30,35 @@ import sys
 sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
 
 ```
+```{tab-item} CSharp
+```cs
+using Autodesk.Revit.DB;
+using Dynamo.Graph.Nodes;
+using Autodesk.DesignScript.Geometry;
+using Autodesk.DesignScript.Runtime;
+using Revit.GeometryConversion;
+using RevitServices.Persistence;
+```
 ## App,UIApp,Document,UIDocument
 
+````{tab-set}
+```{tab-item} Python
 ```py
 doc = DocumentManager.Instance.CurrentDBDocument
 uidoc=DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
 uiapp = DocumentManager.Instance.CurrentUIApplication
 app = DocumentManager.Instance.CurrentUIApplication.Application
 ```
+
+```{tab-item} CSharp
+```cs
+doc = DocumentManager.Instance.CurrentDBDocument;
+uidoc=DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument;
+uiapp = DocumentManager.Instance.CurrentUIApplication;
+app = DocumentManager.Instance.CurrentUIApplication.Application;
+```
+````
+
 ## Function
 
 ### Convert To List
