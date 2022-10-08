@@ -13,7 +13,7 @@ Get Start Now =>
 
 ## Acknowledgements
 
-Awesome Dynamo is supported by an open community of contributors, many of whom come from the Executable Books Community and the Dynamo community.
+Awesome Dynamo is supported by an open community of contributors, many of whom come from the Autodesk Community and the Dynamo community.
 
 ## Author
 
