@@ -167,3 +167,15 @@ net Dynamo Package.
 
 - [DynamoZhukoven](https://github.com/zhukoven/DynamoZhukoven) - This is the Zhukoven.com Dynamo package repo
 
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

@@ -46,3 +46,16 @@ Show case all good chanel working on Dynamo
 ```{note}
 Working in process
 ```
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

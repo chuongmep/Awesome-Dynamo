@@ -138,3 +138,16 @@ Delete Removes the selected node(s) from the workspace.
 CTRL + T Opens the presets window (deprecated and not serialized into the file as of 2.0, but still accessible via shortcut in 2.1). Requires a node capable of having a preset be selected in order to avoid an error message, so it’s unlikely you’ll manage this with selection from the geometry side without use of CTRL + A or TAB keyboard shortcuts.
 ## Document
 https://github.com/DynamoDS/Dynamo/wiki/Dynamo-Keyboard-Shortcuts
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```
