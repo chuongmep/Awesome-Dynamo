@@ -19,20 +19,20 @@ chapters:
   sections:
   - file: DynamoPackage/dynpathpackage.md
   - file: DynamoPackage/dyndevelopackage.md
-- file: DynamoScripts/dynscripts.md
-- file: DynamoCheetSheet/dyncheetsheet.md
 - file: DynamoOpenSource/dynopensource.md
+- file: DynamoPython/dynpython.md
 - file: DynamoTemplete/dyntemplete.md
   sections:
+    - file: DynamoTemplete/designscripttemplete.md
     - file: DynamoTemplete/pythonrevittemplte.md
     - file: DynamoTemplete/zerotouchtemplete.md
+- file: DynamoScripts/dynscripts.md
 - file: DynamoDeveloper/dyndeveloper.md
-- file: DynamoPython/dynpython.md
 - file: DynamoGenerativeDesign/dyngenerative.md
 - file: DynamoML/dynml.md
-- file: DynamoChat/dynchar.md
 - file: DynamoYoutube/dynyoutube.md
 - file: DynamoSupport/dynsupport.md
 - file: DynamoMeeting/dynmeeting.md
 - file: DynamoShortcuts/dynshortcuts.md
 - file: DynamoResolve/dynresolve.md
+- file: DynamoCheetSheet/dyncheetsheet.md
