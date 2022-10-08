@@ -9,8 +9,6 @@ An introductory resource for beginners and a long-term reference. See this struc
 
 Dynamo GitHub - [https://github.com/DynamoDS/Dynamo](https://github.com/DynamoDS/Dynamo)
 
-Dynamo Builds - [https://dynamobuilds.com/](https://dynamobuilds.com/)
-
 What Is New In Dynamo - [https://github.com/DynamoDS/Dynamo/wiki/Release-Notes](https://github.com/DynamoDS/Dynamo/wiki/Release-Notes#212)
 
 ## Dynamo Page Related
