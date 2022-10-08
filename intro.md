@@ -26,3 +26,18 @@ Please ensure your pull request adheres to the following guidelines:
 - List, after your addition, should be alphabetically
 - Keep descriptions concise and clear (Keep It Simple, Stupid)
 - New categories, or improvements to the existing ones are also welcome
+
+Comment 
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 Welcome"
+   crossorigin="anonymous"
+/>
+```
