@@ -31,3 +31,15 @@ C:\Program Files\Autodesk\Revit 202x\AddIns\DynamoForRevit
 ```{admonition} Old Path
 (For versions 0.9.2 and earlier) C:\Program Files\Dynamo\0.x
 ```
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

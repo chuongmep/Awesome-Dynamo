@@ -24,3 +24,17 @@ are out-of-reach.
 - [Dynamo Python 3](https://github.com/DynamoDS/Dynamo/wiki/Work-in-progress-to-improve-Python-3-support) - This document lists issues we detected related to compatibility between Iron Python 2.7 and CPython 3.8 (via Python.NET) engines. Next to each issue we provide a status of it:
 
 - [Python Migration](https://github.com/DynamoDS/Dynamo/wiki/Python-0.6.3-to-0.7.x-Migration) - ...
+
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

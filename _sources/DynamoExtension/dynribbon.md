@@ -5,3 +5,17 @@
 - orkestra : [https://www.orkestra.online/](https://www.orkestra.online/)
 - nonica : [https://nonica.io/](https://nonica.io/)
 - Pyrevit: [https://www.notion.so/pyRevit-bd907d6292ed4ce997c46e84b6ef67a0](https://www.notion.so/bd907d6292ed4ce997c46e84b6ef67a0)
+
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

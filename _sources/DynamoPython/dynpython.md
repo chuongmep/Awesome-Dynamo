@@ -14,3 +14,17 @@ https://github.com/OliverEGreen/DynamoPythonPrimer
 - [Py Dynamo](https://github.com/dannysbentley/pyDynamo) - Python Dynamo Samples from Youtube 
 - [Access To Python 3](https://github.com/DynamoDS/Dynamo/wiki/Access-to-Python-3-modules-(Workaround)) - Learn Access to Python 3 modules
 - [Customizing Dynamo's Python 3 installation](https://github.com/DynamoDS/Dynamo/wiki/Customizing-Dynamo's-Python-3-installation) - ...
+
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

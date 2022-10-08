@@ -147,3 +147,16 @@ public Result Execute(ExternalCommandData commandData, ref string message, Eleme
 ```{note} More
 https://primer.dynamobim.org/10_Custom-Nodes/10-6_Python-Templates.html
 ```
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

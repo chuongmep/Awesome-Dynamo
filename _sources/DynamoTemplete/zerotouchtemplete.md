@@ -48,6 +48,17 @@ public static IDictionary? GetDocument(global::Revit.Elements.Element? element)
 ![](../images/ZeroTouchDictionary.png)
 ```
 
-
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```
 
 

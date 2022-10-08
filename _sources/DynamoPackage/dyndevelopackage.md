@@ -54,3 +54,17 @@ https://dynamopackages.com/
 - WhatTheNode - Contains a node to assist with finding what package custom nodes come in. Made possible with dynamonodes.com 
 - WombatDynamo - Woods Bagot Dynamo Utilities - maintained by Andrea Tassera 
 - Zhukoven.com - Zhukoven is a custom Dynamo 2.3.0+ package for the Revit users. It helps automate repeatable tasks, overcome Revit and Dynamo limitations, and provides you with workarounds to increase productivity and save time. 
+
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```

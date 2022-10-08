@@ -71,3 +71,17 @@ What Is New In Dynamo - [https://github.com/DynamoDS/Dynamo/wiki/Release-Notes](
 - Vashaug - https://vasshaug.net/
 - Weeklydynamo - https://weeklydynamo.blogspot.com/
 - Zhukoven - https://zhukoven.com/posts/
+
+
+```{raw} html
+<script
+   type="text/javascript"
+   src="https://utteranc.es/client.js"
+   async="async"
+   repo="chuongmep/Awesome-Dynamo"
+   issue-term="pathname"
+   theme="github-light"
+   label="💬 comment"
+   crossorigin="anonymous"
+/>
+```
