@@ -610,8 +610,8 @@ title="Print to PDF"
 <section id="import-library">
 <h2><span class="section-number">7.1.2.1. </span>Import Library<a class="headerlink" href="#import-library" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="1689eadd-ea81-4466-bcd3-bf46e6de12d1" name="bca84309-fb9d-489d-8fd4-27413007601f" type="radio">
-</input><label class="sd-tab-label" for="1689eadd-ea81-4466-bcd3-bf46e6de12d1">
+<input checked="checked" id="b696c2a8-3456-43f8-bb16-0135326d1bf7" name="60a010c1-7947-4591-83a4-05cabe7bee46" type="radio">
+</input><label class="sd-tab-label" for="b696c2a8-3456-43f8-bb16-0135326d1bf7">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">clr</span>
 <span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitAPI&#39;</span><span class="p">)</span>
@@ -637,8 +637,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="5586b73c-8233-405a-b6c4-b3c8a557174e" name="bca84309-fb9d-489d-8fd4-27413007601f" type="radio">
-</input><label class="sd-tab-label" for="5586b73c-8233-405a-b6c4-b3c8a557174e">
+<input id="5cf3338c-6a01-4df2-a441-e5f8cc56d3ed" name="60a010c1-7947-4591-83a4-05cabe7bee46" type="radio">
+</input><label class="sd-tab-label" for="5cf3338c-6a01-4df2-a441-e5f8cc56d3ed">
 CSharp</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.DB</span><span class="p">;</span><span class="w"></span>
 <span class="k">using</span><span class="w"> </span><span class="nn">Dynamo.Graph.Nodes</span><span class="p">;</span><span class="w"></span>
@@ -654,8 +654,8 @@ CSharp</label><div class="sd-tab-content docutils">
 <section id="app-uiapp-document-uidocument">
 <h2><span class="section-number">7.1.2.2. </span>App,UIApp,Document,UIDocument<a class="headerlink" href="#app-uiapp-document-uidocument" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="1a2186f7-f578-4fcf-b6d3-4b23fbf34ade" name="33302a1b-e701-4e84-8088-b73ead1ecb18" type="radio">
-</input><label class="sd-tab-label" for="1a2186f7-f578-4fcf-b6d3-4b23fbf34ade">
+<input checked="checked" id="ed4c0f36-58fd-4eda-a237-07f000183e20" name="469b0cce-100a-420f-be85-e714f1ef1594" type="radio">
+</input><label class="sd-tab-label" for="ed4c0f36-58fd-4eda-a237-07f000183e20">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span> <span class="o">=</span> <span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentDBDocument</span>
 <span class="n">uidoc</span><span class="o">=</span><span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentUIApplication</span><span class="o">.</span><span class="n">ActiveUIDocument</span>
@@ -664,8 +664,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="0bc9473e-6c9c-48ca-864c-f7dd466763da" name="33302a1b-e701-4e84-8088-b73ead1ecb18" type="radio">
-</input><label class="sd-tab-label" for="0bc9473e-6c9c-48ca-864c-f7dd466763da">
+<input id="1799304e-c64a-47f2-994a-d0fe9666d255" name="469b0cce-100a-420f-be85-e714f1ef1594" type="radio">
+</input><label class="sd-tab-label" for="1799304e-c64a-47f2-994a-d0fe9666d255">
 CSharp</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentDBDocument</span><span class="p">;</span><span class="w"></span>
 <span class="n">uidoc</span><span class="p">=</span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentUIApplication</span><span class="p">.</span><span class="n">ActiveUIDocument</span><span class="p">;</span><span class="w"></span>
@@ -702,11 +702,62 @@ CSharp</label><div class="sd-tab-content docutils">
 </section>
 <section id="transaction">
 <h3><span class="section-number">7.1.2.3.3. </span>Transaction<a class="headerlink" href="#transaction" title="Permalink to this headline">#</a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="65246f39-3e35-40f4-88fd-50cd77f9cae8" name="ed5bd2ac-66d3-4745-8919-a77e8b0a568c" type="radio">
+</input><label class="sd-tab-label" for="65246f39-3e35-40f4-88fd-50cd77f9cae8">
+Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="c1">#Do some action in a Transaction</span>
 <span class="n">TransactionManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">EnsureInTransaction</span><span class="p">(</span><span class="n">doc</span><span class="p">)</span>
 <span class="c1">#Do Action</span>
 <span class="n">TransactionManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">TransactionTaskDone</span><span class="p">()</span>
 </pre></div>
+</div>
+</div>
+<input id="edfe0606-2802-4f51-a724-5b9f009208c4" name="ed5bd2ac-66d3-4745-8919-a77e8b0a568c" type="radio">
+</input><label class="sd-tab-label" for="edfe0606-2802-4f51-a724-5b9f009208c4">
+Zero Touch Node</label><div class="sd-tab-content docutils">
+<div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentDBDocument</span><span class="w"></span>
+<span class="n">Autodesk</span><span class="p">.</span><span class="n">Revit</span><span class="p">.</span><span class="n">DB</span><span class="p">.</span><span class="n">Document</span><span class="w"> </span><span class="n">doc</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentDBDocument</span><span class="p">;</span><span class="w"></span>
+<span class="n">TransactionManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">EnsureInTransaction</span><span class="p">(</span><span class="n">doc</span><span class="p">);</span><span class="w"></span>
+<span class="c1">// Do some thing</span>
+<span class="n">TransactionManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">TransactionTaskDone</span><span class="p">();</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
+<input id="f851069e-127e-4fe9-b370-1c691025eb6d" name="ed5bd2ac-66d3-4745-8919-a77e8b0a568c" type="radio">
+</input><label class="sd-tab-label" for="f851069e-127e-4fe9-b370-1c691025eb6d">
+Revit API</label><div class="sd-tab-content docutils">
+<div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.ApplicationServices</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.Attributes</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.DB</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.UI</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Application</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">Autodesk</span><span class="p">.</span><span class="n">Revit</span><span class="p">.</span><span class="n">ApplicationServices</span><span class="p">.</span><span class="n">Application</span><span class="p">;</span><span class="w"></span>
+<span class="k">public</span><span class="w"> </span><span class="n">Result</span><span class="w"> </span><span class="nf">Execute</span><span class="p">(</span><span class="n">ExternalCommandData</span><span class="w"> </span><span class="n">commandData</span><span class="p">,</span><span class="w"> </span><span class="k">ref</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">message</span><span class="p">,</span><span class="w"> </span><span class="n">ElementSet</span><span class="w"> </span><span class="n">elements</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">try</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="n">_commandData</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">commandData</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="n">_uiapp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">commandData</span><span class="p">.</span><span class="n">Application</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="n">_uidoc</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">commandData</span><span class="p">.</span><span class="n">Application</span><span class="p">.</span><span class="n">ActiveUIDocument</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="n">_doc</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">commandData</span><span class="p">.</span><span class="n">Application</span><span class="p">.</span><span class="n">ActiveUIDocument</span><span class="p">.</span><span class="n">Document</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="n">_app</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">commandData</span><span class="p">.</span><span class="n">Application</span><span class="p">.</span><span class="n">Application</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="k">using</span><span class="w"> </span><span class="p">(</span><span class="n">Autodesk</span><span class="p">.</span><span class="n">Revit</span><span class="p">.</span><span class="n">DB</span><span class="p">.</span><span class="n">Transaction</span><span class="w"> </span><span class="n">tran</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Autodesk</span><span class="p">.</span><span class="n">Revit</span><span class="p">.</span><span class="n">DB</span><span class="p">.</span><span class="n">Transaction</span><span class="p">(</span><span class="n">_doc</span><span class="p">,</span><span class="s">&quot;Acton&quot;</span><span class="p">))</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="c1">// Do some thing</span>
+<span class="w">            </span><span class="n">tran</span><span class="p">.</span><span class="n">Commit</span><span class="p">();</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="n">Action</span><span class="p">();</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="n">message</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span><span class="w"></span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Result</span><span class="p">.</span><span class="n">Failed</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">Result</span><span class="p">.</span><span class="n">Succeeded</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
 </div>
 </section>
 </section>
