@@ -40,4 +40,5 @@ html:
   use_repository_button: true
   comments:
     utterances:
-      repo: "awesome-dynamo"
+      repo: 
+        chuongmep/awesome-dynamo
