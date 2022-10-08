@@ -39,7 +39,7 @@ C:\Program Files\Autodesk\Revit 202x\AddIns\DynamoForRevit
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoPathPackage"
    crossorigin="anonymous"
 />
 ```

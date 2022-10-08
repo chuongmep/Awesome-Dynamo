@@ -56,7 +56,7 @@ public static IDictionary? GetDocument(global::Revit.Elements.Element? element)
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 ZeroTouchTemplete"
    crossorigin="anonymous"
 />
 ```

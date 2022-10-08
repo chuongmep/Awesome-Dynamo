@@ -156,7 +156,7 @@ https://primer.dynamobim.org/10_Custom-Nodes/10-6_Python-Templates.html
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 PythonTemplete"
    crossorigin="anonymous"
 />
 ```

@@ -24,7 +24,7 @@ https://github.com/OliverEGreen/DynamoPythonPrimer
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoPython"
    crossorigin="anonymous"
 />
 ```

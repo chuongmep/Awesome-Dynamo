@@ -15,7 +15,7 @@
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoRibbon"
    crossorigin="anonymous"
 />
 ```

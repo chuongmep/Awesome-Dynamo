@@ -55,7 +55,7 @@ If you want add to list support, please create an issue on github, allway welcom
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoSupport"
    crossorigin="anonymous"
 />
 ```

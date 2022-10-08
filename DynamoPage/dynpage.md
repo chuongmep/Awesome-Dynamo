@@ -81,7 +81,7 @@ What Is New In Dynamo - [https://github.com/DynamoDS/Dynamo/wiki/Release-Notes](
    repo="chuongmep/Awesome-Dynamo"
    issue-term="pathname"
    theme="github-light"
-   label="💬 comment"
+   label="💬 DynamoPage"
    crossorigin="anonymous"
 />
 ```
