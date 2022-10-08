@@ -14,3 +14,7 @@ Preview Dynamo Templete
 :color: primary
 :outline:
 ```
+
+```{note} You have Templete
+
+```

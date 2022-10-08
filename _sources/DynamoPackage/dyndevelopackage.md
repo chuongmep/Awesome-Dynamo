@@ -1,8 +1,11 @@
 
-# Dynamo Package Page
-
-- Dynamo Package Manager  - https://dynamopackages.com/
 # Dynamo Package Useful
+
+```{admonition} Dynamo Package Manager
+:class: tip, dropdown
+https://dynamopackages.com/
+```
+
 - Ampersand - Dynamo v 2.10 / Nodes for lists management and geometry including applications to architectural paneling and 2D polycurve analysis.
 - archi-lab.net - Set of practical nodes by Konrad K Sobon
 - Bakery - Bakery is a huge repository of BIM and VDC management tools, covering a wide range of workflows and automations. 
