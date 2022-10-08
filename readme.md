@@ -7,7 +7,7 @@
 
 ## Introduction
 
-The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn.
+The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn, apply to work and explore power of Dynamo.
 
 Get Start Now => 
 
@@ -28,6 +28,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Make an individual pull request for each suggestion
 - Use the following format for commit message: Add FeatureName
 - Use the following format: [NAME](LINK) - DESCRIPTION
+- List, after your addition, should be alphabetically
 - The link should be the name of the project
 - Keep descriptions concise and clear (Keep It Simple, Stupid)
 - New categories, or improvements to the existing ones are also welcome

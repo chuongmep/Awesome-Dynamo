@@ -3,9 +3,9 @@
 ![](images/DynamoBackground.png)
 
 ## Introduction
-The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn.
+The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn, apply to work and explore power of Dynamo.
 
-Tables of contents: 
+## Tables Of Contents
 
 ```{tableofcontents}
 ```
