@@ -26,7 +26,6 @@ chapters:
     - file: DynamoTemplete/designscripttemplete.md
     - file: DynamoTemplete/pythonrevittemplte.md
     - file: DynamoTemplete/zerotouchtemplete.md
-- file: DynamoScripts/dynscripts.md
 - file: DynamoDeveloper/dyndeveloper.md
 - file: DynamoGenerativeDesign/dyngenerative.md
 - file: DynamoML/dynml.md
@@ -35,5 +34,7 @@ chapters:
 - file: DynamoMeeting/dynmeeting.md
 - file: DynamoShortcuts/dynshortcuts.md
 - file: DynamoResolve/dynresolve.md
+- file: DynamoScripts/dynscripts.md
+- file: DynamoPresentation/dynpresentation.md
 - file: DynamoCheetSheet/dyncheetsheet.md
 - file: DynamoShowCase/dynshowcase.md
