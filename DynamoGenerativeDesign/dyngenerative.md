@@ -1,4 +1,8 @@
 # Dynamo Generative Design
+```{admonition} Generative Design Primer
+:class: tip, dropdown
+https://www.generativedesign.org/
+```
 
 - [Refinery](https://www.autodesk.com/campaigns/refinery-beta) - An Autodesk generative design beta for the architecture, engineering and construction industry that gives users the power to quickly explore and optimize their Dynamo designs.
 - [Generative Design Primer](https://www.generativedesign.org/) - Welcome to the Generative Design Primer, which aims to introduce AEC practitioners of all experience levels to an exciting new approach to design using generative design workflows.
