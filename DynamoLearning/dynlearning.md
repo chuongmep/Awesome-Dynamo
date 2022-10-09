@@ -13,26 +13,26 @@ https://primer2.dynamobim.org/
 
 ## Dynamo Courses
 
-- Dynamo Page - [https://dynamobim.org/#videoTut](https://dynamobim.org/#videoTut)
+- Aussie BIM Guru - [https://www.youtube.com/watch?v=7LbAP5G8ojQ&list=PLBKwx9iS-Luk38UWL7gU9LCP_gojOu1qi](https://www.youtube.com/watch?v=7LbAP5G8ojQ&list=PLBKwx9iS-Luk38UWL7gU9LCP_gojOu1qi)
 
 - Autodesk University - [https://www.autodesk.com/autodesk-university/class](https://www.autodesk.com/autodesk-university/class)
 
-- Linkedin - [https://www.linkedin.com/learning/topics/dynamo](https://www.linkedin.com/learning/dynamo-practical)
-
 - Diroots - [https://diroots.com/e-learning/dynamo-courses/dynamo-for-revit-basic-course/](https://diroots.com/e-learning/dynamo-courses/dynamo-for-revit-basic-course/)
 
-- Aussie BIM Guru - [https://www.youtube.com/watch?v=7LbAP5G8ojQ&list=PLBKwx9iS-Luk38UWL7gU9LCP_gojOu1qi](https://www.youtube.com/watch?v=7LbAP5G8ojQ&list=PLBKwx9iS-Luk38UWL7gU9LCP_gojOu1qi)
+- Dynamo In Japan - [https://www.youtube.com/channel/UCZLfHhM7Cu7ranKk2XKKK7Q/videos](https://www.youtube.com/channel/UCZLfHhM7Cu7ranKk2XKKK7Q/videos)
+- Dynamo In Spanish - [https://especialista3d.com/](https://especialista3d.com/)
 
 - Dynamo In VietNam(***eRSVN***) - [https://www.youtube.com/watch?v=8XIZ6nmisko&list=PLcUq_rc1Vk1LIIcg8_W0xqeN1Ze_EZOEk](https://www.youtube.com/watch?v=8XIZ6nmisko&list=PLcUq_rc1Vk1LIIcg8_W0xqeN1Ze_EZOEk)
 
-- Dynamo In Spanish - [https://especialista3d.com/](https://especialista3d.com/)
+- Dynamo Page - [https://dynamobim.org/#videoTut](https://dynamobim.org/#videoTut)
 
-- Dynamo In Japan - [https://www.youtube.com/channel/UCZLfHhM7Cu7ranKk2XKKK7Q/videos](https://www.youtube.com/channel/UCZLfHhM7Cu7ranKk2XKKK7Q/videos)
-
+- Learn Dynamo Dictionary - [https://dictionary.dynamobim.com](https://dictionary.dynamobim.com/)
 - Learn Dynamo Module - [https://learndynamo.com](https://learndynamo.com)
 
 - Learn Dynamo Nodes - [https://dynamonodes.com](https://dynamonodes.com/)
-- Learn Dynamo Dictionary - [https://dictionary.dynamobim.com](https://dictionary.dynamobim.com/)
+
+- Linkedin - [https://www.linkedin.com/learning/topics/dynamo](https://www.linkedin.com/learning/dynamo-practical)
+
 
 ```{raw} html
 <script
