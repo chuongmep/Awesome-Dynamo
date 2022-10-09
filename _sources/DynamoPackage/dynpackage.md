@@ -1,6 +1,5 @@
 # Dynamo Package
 
-
 ```{tableofcontents}
 ```
 

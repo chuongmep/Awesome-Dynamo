@@ -27,6 +27,7 @@ Show case all good chanel working on Dynamo
 - Lynn Kim - https://www.youtube.com/c/LynnKim/videos
 - Modelical - https://www.youtube.com/user/Modelical/videos
 - Mostapha Sadeghipour Roudsari - https://www.youtube.com/c/MostaphaSadeghipour/videos
+- NikoG - https://www.youtube.com/c/NikoG/featured
 - oliver Langwich - https://www.youtube.com/watch?v=znKeN0Vb_hY&list=PL4qP9XZGl-dOggIAlYCvE8sC9t5Nrtyul
 - Parallax Team - https://www.youtube.com/channel/UCc8jG652YZuOeZhbZHGuVBg
 - Practical BIM - https://www.youtube.com/channel/UCUm1bwVLkPHlcf4f7-QxrXQ/videos
