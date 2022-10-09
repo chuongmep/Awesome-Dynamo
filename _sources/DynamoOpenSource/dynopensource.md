@@ -25,7 +25,9 @@ net Dynamo Package.
 
 - [Binoculars](https://github.com/teamtreedyn/Binoculars) - {literally watching your every move*} *not really, just when your graph runs. 🔍
 
-- [BitubTRexDynamo](https://github.com/bekraft/BitubTRexDynamo) - Bitub TRex Dynamo Plugin for IFC post production 
+- [BitubTRexDynamo](https://github.com/bekraft/BitubTRexDynamo) - Bitub TRex Dynamo Plugin for IFC post production
+
+- [BeyondDynamo](https://github.com/JoelvanHerwaarden/BeyondDynamo2.X) - A plug-in for Dynamo BIM 2.x which extends the functionalities of Dynamo 
 
 - [Bumblebee](https://github.com/ksobon/Bumblebee) - Excel interop for Dynamo 
 
