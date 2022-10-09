@@ -10,7 +10,9 @@ https://dynamopackages.com/
 - [archi-lab.net](https://archi-lab.net/) - Set of practical nodes by Konrad K Sobon
 - Bakery - Bakery is a huge repository of BIM and VDC management tools, covering a wide range of workflows and automations. 
 - [Bang!](https://github.com/johnpierson/BangForDynamo)- Bang! is built for Dynamo 1.3.3 and 2.0.x and Revit 2018+. This package provides access to Revit warnings utilizing methods added in the Revit 2018 API. That being said, these nodes will only work in Revit 2018 and higher. Why Bang? Bang stands for the "!" symbol and appears on warning signs. :) Bang! is authored by John Pierson (@60secondrevit) of Parallax Team (http://www.parallaxteam.com/) and sixtysecondrevit.com. 
-- BattleBIM -  New Node: I added one additional node called “TextNote.RemoveLeaders” with this now user should be able Remove all the Leaders from TextNotes in bulk. Let me know if you have any comments or questions at lingkonn@gmail.com Refer to the following url for all the examples https://www.facebook.com/groups/DynamoSingapore/ 
+- BattleBIM -  New Node: I added one additional node called “TextNote.RemoveLeaders” with this now user should be able Remove all the Leaders from TextNotes in bulk.
+- [Camber](https://github.com/mzjensen/Camber) - Camber is a package for Dynamo for Civil 3D that expands the capabilities of Dynamo within Autodesk® Civil 3D.
+- [Civil3dToolkit](https://github.com/paoloemilioserra/Civil3dToolkit) - Toolkit for Civil 3D. 
 - [bimorphNodes](https://bimorph.com/bimorph-nodes/) - BimorphNodes are a collection of powerful utility nodes that extend Dynamo for Revit.
 - Bridge - A library for creating and editing solids made of cross sections in terms of bridges and tunnels. See also extra example files
 - [BumbleBee](https://github.com/ksobon/Bumblebee) - Dynamo 2.0.1 - Dynamo and Excel Interop developed by Konrad K. Sobon. Instructions and totorials can be found at www.archi-lab.net. 
