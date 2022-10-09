@@ -31,6 +31,8 @@ Please ensure your pull request adheres to the following guidelines:
 - Keep descriptions concise and clear (Keep It Simple, Stupid)
 - New categories, or improvements to the existing ones are also welcome
 
+Built with [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
+
 <a href = "https://github.com/chuongmep/Awesome-Dynamo/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=chuongmep/Awesome-Dynamo"/>
 </a>
