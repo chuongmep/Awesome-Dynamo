@@ -15,7 +15,7 @@ https://dynamopackages.com/
 - Bridge - A library for creating and editing solids made of cross sections in terms of bridges and tunnels. See also extra example files
 - [BumbleBee](https://github.com/ksobon/Bumblebee) - Dynamo 2.0.1 - Dynamo and Excel Interop developed by Konrad K. Sobon. Instructions and totorials can be found at www.archi-lab.net. 
 - BVN - A collection of over 50+ Dynamo utility nodes developed by BVN Architecture with an emphasis on the interoperability between Revit, Rhino and Excel
-- [BeyondDynamo](https://github.com/JoelvanHerwaarden/BeyondDynamo2.X) - A plug-in for Dynamo BIM 2.x which extends the functionalities of Dynamo.
+- [BeyondDynamo](https://github.com/JoelvanHerwaarden/BeyondDynamo2.X) - A plug-in for Dynamo BIM 2.x which extends the functionalities of Dynamo
 - [Camber](https://github.com/mzjensen/Camber) - Camber is a package for Dynamo for Civil 3D that expands the capabilities of Dynamo within Autodesk® Civil 3D.
 - [Civil3dToolkit](https://github.com/paoloemilioserra/Civil3dToolkit) - Toolkit for Civil 3D. 
 - Chynamo - Chynamo provides faster and more efficient ways in BIM data management. Chynamo also has integrated useful nodes from other packages.
@@ -31,7 +31,7 @@ https://dynamopackages.com/
 - [EvolveLAB](https://www.evolvelab.io/) - Rooms packing space planning generative design mep assemblies sheets views viewports creation evolvelab .
 - Fabrication Bolognese - A package created by Mechanical Inc. to aid in the use of fabrication parts within Revit.
 - GenerativeDesign - This package contains things to visualize results in the Dynamo viewport. 
-- Genius Loci - Export import pdf dwg print material graphics dimension coordinate mep 
+- [Genius Loci](https://github.com/albandechasteigner/GeniusLociForDynamo) Genius Loci is a compilation of +300 custom nodes. It allows to export from Revit, import, interact with linked files and Revit documents, manage materials and graphics, and automate dimensions. 
 - Honeybee - Honeybee connects Revit and DynamoBIM to Radiance and OpenStudio (EnergyPlus) for daylight and energy simulation.
 - Hot Gear - 50+ practical node in order to increase Revit workflow. 
 - Ladybug - Ladybug is a plugin for weather data and environmental analysis. See release notes at discourse.ladybug.tools 
@@ -45,7 +45,7 @@ https://dynamopackages.com/
 - [Prorubim DS Common Kit](http://prorubim.com/en/tools/) - Node set with additional app independent universal Dynamo nodes 
 - [Rhynamo](https://provingground.io/tools/rhynamo/) - New support has been added for Rhino 5.0 and 6.0 files. Rhynamo uses McNeel's OpenNURBS library to expose new nodes for translating Rhino geometry for use within Dynamo. 
 - [Rhythm](https://github.com/johnpierson/RhythmForDynamo) - Rhythm is a set of useful nodes to help your Revit project maintain a good rhythm with Dynamo. 
-- RIE - Genius Loci is a compilation of +300 custom nodes. It allows to export from Revit, import, interact with linked files and Revit documents, manage materials and graphics, and automate dimensions. 
+- [RIE](https://github.com/andre-abotnes/RIE) - Package of nodes for Dynamo. For use in Autodesk Revit.
 - [Sastrugi](https://sites.google.com/view/sastrugi/nodes) - Helpful nodes to generate Structure from Form. 
 - [Slingshot! for Dynamo](http://wiki.theprovingground.org/slingshot-dynamo) - Slingshot! is a node library for connecting Dynamo (0.7.4) to external Relational Database Management Systems (RDBMS).
 - [Speckle for Dynamo](https://speckle.guide/user/dynamo.html) - Speckle for Dynamo is not available from the package manager anymore! 
