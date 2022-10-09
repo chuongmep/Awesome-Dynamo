@@ -1,5 +1,12 @@
 # Dynamo Scripts
 
+- Alantze - [https://github.com/alantze/DynamoScripts](https://github.com/alantze/DynamoScripts)
+- AussieBIMguru - [https://github.com/aussieBIMguru/Dynamo_Scripts](https://github.com/aussieBIMguru/Dynamo_Scripts)
+- Bimone - [https://github.com/bimone/scripts-dynamo](https://github.com/bimone/scripts-dynamo)
+- Giobel - [https://github.com/giobel/DynamoScripts](https://github.com/giobel/DynamoScripts)
+- Thakopian - [https://github.com/thakopian/DynamoScripts](https://github.com/thakopian/DynamoScripts)
+
+
 ```{note}
 Need volunteers!
 

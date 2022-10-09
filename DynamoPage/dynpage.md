@@ -1,12 +1,8 @@
 # Dynamo Page
 
-```{admonition} Learn - Dynamo BIM
+```{admonition} Dynamo BIM
 :class: tip, dropdown
-https://primer2.dynamobim.org/
-```
-```{admonition} Dynamo GitHub
-:class: tip, dropdown
-https://github.com/DynamoDS/Dynamo
+https://dynamobim.org/
 ```
 ```{admonition} What Is New In Dynamo
 :class: tip, dropdown

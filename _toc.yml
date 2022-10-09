@@ -10,6 +10,7 @@ options:
 chapters:
 - file: how_to_read.md
 - file: DynamoPage/dynpage.md
+- file: DynamoLearning/dynlearning.md
 - file: DynamoVersion/dynversion.md
   sections:
   - file: DynamoVersion/civil3d.md
