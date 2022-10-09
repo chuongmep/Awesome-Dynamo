@@ -15,6 +15,7 @@ https://dynamopackages.com/
 - Bridge - A library for creating and editing solids made of cross sections in terms of bridges and tunnels. See also extra example files
 - [BumbleBee](https://github.com/ksobon/Bumblebee) - Dynamo 2.0.1 - Dynamo and Excel Interop developed by Konrad K. Sobon. Instructions and totorials can be found at www.archi-lab.net. 
 - BVN - A collection of over 50+ Dynamo utility nodes developed by BVN Architecture with an emphasis on the interoperability between Revit, Rhino and Excel
+- [BeyondDynamo](https://github.com/JoelvanHerwaarden/BeyondDynamo2.X) - A plug-in for Dynamo BIM 2.x which extends the functionalities of Dynamo.
 - [Camber](https://github.com/mzjensen/Camber) - Camber is a package for Dynamo for Civil 3D that expands the capabilities of Dynamo within Autodesk® Civil 3D.
 - [Civil3dToolkit](https://github.com/paoloemilioserra/Civil3dToolkit) - Toolkit for Civil 3D. 
 - Chynamo - Chynamo provides faster and more efficient ways in BIM data management. Chynamo also has integrated useful nodes from other packages.
