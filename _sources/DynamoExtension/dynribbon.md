@@ -1,10 +1,11 @@
 
 # Dynamo Ribbon
-- Dyno : [http://prorubim.com/en/tools/dyno/](http://prorubim.com/en/tools/dyno/)
-- Relay:  [https://www.notion.so/Relay-for-Revit-6732550b41d34bce8edc518c0d0e47b9](https://www.notion.so/Relay-for-Revit-6732550b41d34bce8edc518c0d0e47b9)
-- orkestra : [https://www.orkestra.online/](https://www.orkestra.online/)
-- nonica : [https://nonica.io/](https://nonica.io/)
-- Pyrevit: [https://www.notion.so/pyRevit-bd907d6292ed4ce997c46e84b6ef67a0](https://www.notion.so/bd907d6292ed4ce997c46e84b6ef67a0)
+
+- [Dyno](http://prorubim.com/en/tools/dyno/) - Organising, deploying and running Dynamo workspaces tool for Autodesk Revit
+- [nonica](https://nonica.io/) - Integrate & Share your Dynamo scripts as Revit buttons inhundreds of PCs.
+- [orkestra](https://www.orkestra.online/) - Create, deploy & scale Dynamo scripts like never before.
+- [Pyrevit](https://www.notion.so/bd907d6292ed4ce997c46e84b6ef67a0) - pyRevit (with lowercase py) is a Rapid Application Prototyping (RAD) environment for Autodesk Revit®.
+- [Relay](https://www.notion.so/Relay-for-Revit-6732550b41d34bce8edc518c0d0e47b9) - Relay aims to allow you to add Dynamo graphs (.dyn files) to your ribbon as push button tools.
 
 
 ```{raw} html
