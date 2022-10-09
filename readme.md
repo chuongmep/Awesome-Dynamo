@@ -7,13 +7,13 @@
 
 ## Introduction
 
-The Awesome Dynamo project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn, apply to work and explore power of Dynamo.
+The Awesome [Dynamo](https://dynamobim.org/) project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn, apply to work and explore power of Dynamo.
 
 Get Start Now => https://chuongmep.github.io/Awesome-Dynamo/intro.html
 
 ## Acknowledgements
 
-Awesome Dynamo is supported by an open community of contributors, many of whom come from the Autodesk Community and the Dynamo community.
+Awesome [Dynamo](https://dynamobim.org/) is supported by an open community of contributors, many of whom come from the Autodesk Community and the [Dynamo community](https://forum.dynamobim.com/).
 
 ## Author
 
