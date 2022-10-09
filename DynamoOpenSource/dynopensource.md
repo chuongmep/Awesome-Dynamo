@@ -147,6 +147,8 @@ net Dynamo Package.
 
 - [RefineryToolkits](https://github.com/DynamoDS/RefineryToolkits) - The Autodesk Refinery Toolkit 
 
+- [RIE](https://github.com/andre-abotnes/RIE) - Package of nodes for Dynamo. For use in Autodesk Revit.
+
 - [Relay](https://github.com/ParallaxTeam/Relay) - Relay allows for you to add Dynamo graphs to your Revit ribbon. 
 
 - [RhythmForDynamo](https://github.com/johnpierson/RhythmForDynamo) - A collection of nodes for use in Dynamo with Revit. 
