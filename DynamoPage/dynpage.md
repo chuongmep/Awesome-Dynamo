@@ -1,16 +1,17 @@
-# Dynamo  Main Page
-## Dynamo Primer
+# Dynamo Page
 
-An introductory resource for beginners and a long-term reference. See this structured explanation of everything from data management to computational geometry and working with Revit.
-
-[Learn - Dynamo BIM](https://primer2.dynamobim.org/)
-
-![](images/01-ProgramFlow.png)
-
-Dynamo GitHub - [https://github.com/DynamoDS/Dynamo](https://github.com/DynamoDS/Dynamo)
-
-What Is New In Dynamo - [https://github.com/DynamoDS/Dynamo/wiki/Release-Notes](https://github.com/DynamoDS/Dynamo/wiki/Release-Notes#212)
-
+```{admonition} Learn - Dynamo BIM
+:class: tip, dropdown
+https://primer2.dynamobim.org/
+```
+```{admonition} Dynamo GitHub
+:class: tip, dropdown
+https://github.com/DynamoDS/Dynamo
+```
+```{admonition} What Is New In Dynamo
+:class: tip, dropdown
+https://github.com/DynamoDS/Dynamo/wiki/Release-Notes
+```
 ## Dynamo Page Related
 
 - AEC, you and me - https://aecuandme.wordpress.com/
