@@ -189,6 +189,11 @@ const thebe_selector_output = ".output, .cell_output"
      4.3. Dynamo Formit Version
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoVersion/alias.html">
+     4.4. Dynamo Alias Version
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
@@ -621,8 +626,8 @@ title="Print to PDF"
 <section id="import-library">
 <h2><span class="section-number">8.1.2.1. </span>Import Library<a class="headerlink" href="#import-library" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="04fb2e11-1751-4236-9570-9f4e9b6ad826" name="390aedfe-2264-4dc6-842f-b9ad33c1c4b6" type="radio">
-</input><label class="sd-tab-label" for="04fb2e11-1751-4236-9570-9f4e9b6ad826">
+<input checked="checked" id="dd0757b0-398d-4722-a233-49571f90617c" name="25ec216f-6133-4356-92d1-fb90ef254360" type="radio">
+</input><label class="sd-tab-label" for="dd0757b0-398d-4722-a233-49571f90617c">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">clr</span>
 <span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitAPI&#39;</span><span class="p">)</span>
@@ -648,8 +653,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="199d4d1d-6394-4631-91c2-2401c216963d" name="390aedfe-2264-4dc6-842f-b9ad33c1c4b6" type="radio">
-</input><label class="sd-tab-label" for="199d4d1d-6394-4631-91c2-2401c216963d">
+<input id="ec5eb7db-ff0b-4c92-9ae3-d9e6408cce91" name="25ec216f-6133-4356-92d1-fb90ef254360" type="radio">
+</input><label class="sd-tab-label" for="ec5eb7db-ff0b-4c92-9ae3-d9e6408cce91">
 CSharp</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.DB</span><span class="p">;</span><span class="w"></span>
 <span class="k">using</span><span class="w"> </span><span class="nn">Dynamo.Graph.Nodes</span><span class="p">;</span><span class="w"></span>
@@ -665,8 +670,8 @@ CSharp</label><div class="sd-tab-content docutils">
 <section id="app-uiapp-document-uidocument">
 <h2><span class="section-number">8.1.2.2. </span>App,UIApp,Document,UIDocument<a class="headerlink" href="#app-uiapp-document-uidocument" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="45235fb8-a540-4628-a70c-4cdd38755241" name="a88871fe-1ff0-49c6-8b9b-38344184cde0" type="radio">
-</input><label class="sd-tab-label" for="45235fb8-a540-4628-a70c-4cdd38755241">
+<input checked="checked" id="dd240fd6-a7e9-4da9-8fc6-61bab35f4035" name="86ba7661-3856-46a8-acd4-bc8422f3de8b" type="radio">
+</input><label class="sd-tab-label" for="dd240fd6-a7e9-4da9-8fc6-61bab35f4035">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span> <span class="o">=</span> <span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentDBDocument</span>
 <span class="n">uidoc</span><span class="o">=</span><span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentUIApplication</span><span class="o">.</span><span class="n">ActiveUIDocument</span>
@@ -675,8 +680,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="3f0bf130-65c3-477f-9475-a1385b6e6d5d" name="a88871fe-1ff0-49c6-8b9b-38344184cde0" type="radio">
-</input><label class="sd-tab-label" for="3f0bf130-65c3-477f-9475-a1385b6e6d5d">
+<input id="6081a31a-9d22-4f4f-b632-8eadf1bf7ac6" name="86ba7661-3856-46a8-acd4-bc8422f3de8b" type="radio">
+</input><label class="sd-tab-label" for="6081a31a-9d22-4f4f-b632-8eadf1bf7ac6">
 CSharp</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentDBDocument</span><span class="p">;</span><span class="w"></span>
 <span class="n">uidoc</span><span class="p">=</span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentUIApplication</span><span class="p">.</span><span class="n">ActiveUIDocument</span><span class="p">;</span><span class="w"></span>
@@ -714,8 +719,8 @@ CSharp</label><div class="sd-tab-content docutils">
 <section id="transaction">
 <h3><span class="section-number">8.1.2.3.3. </span>Transaction<a class="headerlink" href="#transaction" title="Permalink to this headline">#</a></h3>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="8ce3e172-fd05-4902-a7c0-942fd4b52772" name="bc4ba81d-2636-4dea-9770-c915128e9254" type="radio">
-</input><label class="sd-tab-label" for="8ce3e172-fd05-4902-a7c0-942fd4b52772">
+<input checked="checked" id="185c65b2-d81e-4403-8e69-de8b2b71bd88" name="17408e74-ca5c-4c1d-a575-7ffe965fab06" type="radio">
+</input><label class="sd-tab-label" for="185c65b2-d81e-4403-8e69-de8b2b71bd88">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">clr</span>
 <span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitServices&#39;</span><span class="p">)</span>
@@ -730,8 +735,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="38503c6c-7e19-4245-b528-03ea44db4ee5" name="bc4ba81d-2636-4dea-9770-c915128e9254" type="radio">
-</input><label class="sd-tab-label" for="38503c6c-7e19-4245-b528-03ea44db4ee5">
+<input id="7425c3ef-00d9-4793-a003-699f2a7f0e99" name="17408e74-ca5c-4c1d-a575-7ffe965fab06" type="radio">
+</input><label class="sd-tab-label" for="7425c3ef-00d9-4793-a003-699f2a7f0e99">
 Zero Touch Node</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.DB</span><span class="p">;</span><span class="w"></span>
 <span class="k">using</span><span class="w"> </span><span class="nn">RevitServices.Persistence</span><span class="p">;</span><span class="w"></span>
@@ -744,8 +749,8 @@ Zero Touch Node</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="0d79eac8-ffdd-4037-85fd-19fcc4d10091" name="bc4ba81d-2636-4dea-9770-c915128e9254" type="radio">
-</input><label class="sd-tab-label" for="0d79eac8-ffdd-4037-85fd-19fcc4d10091">
+<input id="414fe76c-286e-4f5d-ab41-4845c297c761" name="17408e74-ca5c-4c1d-a575-7ffe965fab06" type="radio">
+</input><label class="sd-tab-label" for="414fe76c-286e-4f5d-ab41-4845c297c761">
 Revit API</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.ApplicationServices</span><span class="p">;</span><span class="w"></span>
 <span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.Attributes</span><span class="p">;</span><span class="w"></span>
