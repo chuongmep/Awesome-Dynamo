@@ -14,6 +14,7 @@ Show case all good chanel working on Dynamo
 - Diroot - https://www.youtube.com/channel/UCoIVs2JY3MFPFuiGG5PBU3w
 - Dyn-Ammo - https://www.youtube.com/c/arteTechtureAyman/videos
 - Dynamo SBSS - https://www.youtube.com/channel/UCUGTTZutE3Ko1R9cxLYSDrQ/videos
+- Dynamo Office Hours - https://www.youtube.com/playlist?list=PLdlF7MirPEC2yNFTGymESd3t7Xosfk9c2
 - DynamoBIM - https://www.youtube.com/channel/UCsTIj3LQmIeOaWl4SVCidZw/videos
 - eRSVN  - https://www.youtube.com/channel/UC1eOOUGSFt8rTqxRPU3Rb5w
 - EvolveLAB - https://www.youtube.com/channel/UCrUqAHZOqTXu3Myei1VUBzA
