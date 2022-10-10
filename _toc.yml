@@ -16,6 +16,7 @@ chapters:
   - file: DynamoVersion/civil3d.md
   - file: DynamoVersion/revit.md
   - file: DynamoVersion/formit.md
+  - file: DynamoVersion/alias.md
 - file: DynamoPackage/dynpackage.md
   sections:
   - file: DynamoPackage/dynpathpackage.md
