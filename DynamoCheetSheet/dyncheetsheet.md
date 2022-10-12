@@ -2,10 +2,16 @@
 
 ## [TheRevitKid](http://therevitkid.blogspot.com/2017/09/the-dynamo-desktop-cheat-sheet-free.html)
 
-![](../images/DynamoDesktopCheetSheet.jpg)
+```{figure} ../images/DynamoDesktopCheetSheet.jpg
+---
+height: 500px
+name: directive-fig
+---
+Dynamo Cheet Sheet From TheRevitKid
+```
 
 ```{note}
-Need volunteers!
+👉 You have cheet sheet ? Open pull request now!
 
 ```
 
