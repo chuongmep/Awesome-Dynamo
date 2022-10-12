@@ -1,5 +1,9 @@
 # Dynamo Cheet Sheet
 
+## [TheRevitKid](http://therevitkid.blogspot.com/2017/09/the-dynamo-desktop-cheat-sheet-free.html)
+
+![](../images/DynamoDesktopCheetSheet.jpg)
+
 ```{note}
 Need volunteers!
 
