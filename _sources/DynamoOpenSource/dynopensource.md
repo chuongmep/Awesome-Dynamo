@@ -169,7 +169,7 @@ net Dynamo Package.
 
 - [Warnamo](https://github.com/KeanW/Warnamo) - Browse warnings and errors in a Dynamo graph. 
 
-- [DynamoZhukoven](https://github.com/zhukoven/DynamoZhukoven) - This is the Zhukoven.com Dynamo package repo
+- [Zhukoven](https://github.com/zhukoven/DynamoZhukoven) - This is the Zhukoven.com Dynamo package repo
 
 ```{raw} html
 <script
