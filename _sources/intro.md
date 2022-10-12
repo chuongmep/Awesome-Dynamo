@@ -27,7 +27,9 @@ Please ensure your pull request adheres to the following guidelines:
 - Keep descriptions concise and clear (Keep It Simple, Stupid)
 - New categories, or improvements to the existing ones are also welcome
 
-Comment 
+### Dynamo Book Recommend
+
+- [Dynamo and Grasshopper for Revit Cheat Sheet Reference Manual](https://www.amazon.sg/Dynamo-Grasshopper-Revit-Reference-Manual/dp/1735927236)
 
 ```{raw} html
 <script
