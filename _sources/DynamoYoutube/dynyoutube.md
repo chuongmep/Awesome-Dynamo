@@ -27,6 +27,7 @@ Show case all good chanel working on Dynamo
 - Long Nguyen - https://www.youtube.com/user/longnguyenphuoc/videos
 - Lynn Kim - https://www.youtube.com/c/LynnKim/videos
 - Modelical - https://www.youtube.com/user/Modelical/videos
+- Mariyan Developer - https://www.youtube.com/channel/UCEanItgUvnUQroNkK-13Y6Q/videos
 - Mostapha Sadeghipour Roudsari - https://www.youtube.com/c/MostaphaSadeghipour/videos
 - NikoG - https://www.youtube.com/c/NikoG/featured
 - oliver Langwich - https://www.youtube.com/watch?v=znKeN0Vb_hY&list=PL4qP9XZGl-dOggIAlYCvE8sC9t5Nrtyul
