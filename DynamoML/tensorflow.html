@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>18. Dynamo Scripts &#8212; Awesome Dynamo</title>
+    <title>11.5. Tensorflow &#8212; Awesome Dynamo</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -87,8 +87,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/dynamo.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="19. Dynamo Presentation" href="../DynamoPresentation/dynpresentation.html" />
-    <link rel="prev" title="17. Dynamo Resolve Problem" href="../DynamoResolve/dynresolve.html" />
+    <link rel="next" title="12. Dynamo Ribbon" href="../DynamoExtension/dynribbon.html" />
+    <link rel="prev" title="11.4. Matplotlib" href="matplotlib.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -265,38 +265,38 @@ const thebe_selector_output = ".output, .cell_output"
    10. Dynamo Generative Design
   </a>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../DynamoML/dynml.html">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="dynml.html">
    11. Dynamo Machine Learning
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
   <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="../DynamoML/intro.html">
+    <a class="reference internal" href="intro.html">
      11.1. Introduction
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../DynamoML/installation.html">
+    <a class="reference internal" href="installation.html">
      11.2. Installation Python
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../DynamoML/numpy.html">
+    <a class="reference internal" href="numpy.html">
      11.3. Numpy
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../DynamoML/matplotlib.html">
+    <a class="reference internal" href="matplotlib.html">
      11.4. Matplotlib
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../DynamoML/tensorflow.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      11.5. Tensorflow
     </a>
    </li>
@@ -332,8 +332,8 @@ const thebe_selector_output = ".output, .cell_output"
    17. Dynamo Resolve Problem
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoScripts/dynscripts.html">
    18. Dynamo Scripts
   </a>
  </li>
@@ -403,6 +403,71 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/chuongmep/Awesome-Dynamo/master?urlpath=tree/DynamoML/tensorflow.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://colab.research.google.com/github/chuongmep/Awesome-Dynamo/blob/master/DynamoML/tensorflow.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Colab"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../_static/images/logo_colab.png">
+  </span>
+<span class="headerbtn__text-container">Colab</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="initThebeSBT()"
+  class="headerbtn headerbtn-launch-thebe"
+  data-toggle="tooltip"
+data-placement="left"
+title="Launch Thebe"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="headerbtn__text-container">Live Code</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -442,7 +507,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/chuongmep/Awesome-Dynamo/issues/new?title=Issue%20on%20page%20%2FDynamoScripts/dynscripts.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/chuongmep/Awesome-Dynamo/issues/new?title=Issue%20on%20page%20%2FDynamoML/tensorflow.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -459,7 +524,7 @@ title="Open an issue"
       </li>
       
       <li>
-        <a href="https://github.com/chuongmep/Awesome-Dynamo/edit/master/DynamoScripts/dynscripts.md"
+        <a href="https://github.com/chuongmep/Awesome-Dynamo/edit/master/DynamoML/tensorflow.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -487,7 +552,24 @@ title="Edit this page"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/DynamoScripts/dynscripts.md"
+        <a href="../_sources/DynamoML/tensorflow.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download notebook file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-code"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="../_sources/DynamoML/tensorflow.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -524,23 +606,80 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-tensorflow">
+   11.5.1. Install Tensorflow
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-cuda">
+   11.5.2. Install Cuda
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#start-with-tensorflow">
+   11.5.3. Start with Tensorflow
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Dynamo Scripts</h1>
+                <h1>Tensorflow</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-tensorflow">
+   11.5.1. Install Tensorflow
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-cuda">
+   11.5.2. Install Cuda
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#start-with-tensorflow">
+   11.5.3. Start with Tensorflow
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -548,30 +687,122 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="dynamo-scripts">
-<h1><span class="section-number">18. </span>Dynamo Scripts<a class="headerlink" href="#dynamo-scripts" title="Permalink to this headline">#</a></h1>
-<ul class="simple">
-<li><p>Alantze - <a class="reference external" href="https://github.com/alantze/DynamoScripts">https://github.com/alantze/DynamoScripts</a></p></li>
-<li><p>AussieBIMguru - <a class="reference external" href="https://github.com/aussieBIMguru/Dynamo_Scripts">https://github.com/aussieBIMguru/Dynamo_Scripts</a></p></li>
-<li><p>Bimone - <a class="reference external" href="https://github.com/bimone/scripts-dynamo">https://github.com/bimone/scripts-dynamo</a></p></li>
-<li><p>Giobel - <a class="reference external" href="https://github.com/giobel/DynamoScripts">https://github.com/giobel/DynamoScripts</a></p></li>
-<li><p>Thakopian - <a class="reference external" href="https://github.com/thakopian/DynamoScripts">https://github.com/thakopian/DynamoScripts</a></p></li>
-<li><p>NoDataSheet - <a class="reference external" href="https://github.com/nodatasheet/Revit">https://github.com/nodatasheet/Revit</a></p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Need volunteers!</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="tensorflow">
+<h1><span class="section-number">11.5. </span>Tensorflow<a class="headerlink" href="#tensorflow" title="Permalink to this headline">#</a></h1>
+<p>TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks. <a class="reference external" href="https://en.wikipedia.org/wiki/TensorFlow">wikipedia</a></p>
+<section id="install-tensorflow">
+<h2><span class="section-number">11.5.1. </span>Install Tensorflow<a class="headerlink" href="#install-tensorflow" title="Permalink to this headline">#</a></h2>
+<p>You need ensure that card in computer support Tensorflow before want install it: <a class="reference external" href="https://developer.nvidia.com/cuda-gpus">https://developer.nvidia.com/cuda-gpus</a></p>
+<p>I recommend you should use card <strong>RTX</strong> at the momment. First at all, you need install tensorflow :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install tensorflow
+</pre></div>
 </div>
-<script
-   type="text/javascript"
-   src="https://utteranc.es/client.js"
-   async="async"
-   repo="chuongmep/Awesome-Dynamo"
-   issue-term="pathname"
-   theme="github-light"
-   label="💬 DynamoScript"
-   crossorigin="anonymous"
-/></section>
+</section>
+<section id="install-cuda">
+<h2><span class="section-number">11.5.2. </span>Install Cuda<a class="headerlink" href="#install-cuda" title="Permalink to this headline">#</a></h2>
+<p>You need install cuda and cudnn before work with tensorflow, because tensor need GPU to use for process.</p>
+<ul class="simple">
+<li><p>Cuda : <a class="reference external" href="https://developer.nvidia.com/cuda-toolkit">https://developer.nvidia.com/cuda-toolkit</a></p></li>
+<li><p>CUDNN : <a class="reference external" href="https://developer.nvidia.com/cudnn">https://developer.nvidia.com/cudnn</a></p></li>
+</ul>
+<p><strong>Warning</strong> :</p>
+<ul class="simple">
+<li><p>Please download version map with version of tensorflow, see at <a class="reference external" href="https://www.tensorflow.org/install/source#gpu">https://www.tensorflow.org/install/source#gpu</a>/</p></li>
+<li><p>Please download tensorflow map with version python, see at : <a class="reference external" href="https://www.tensorflow.org/install/source_windows#tested_build_configurations">https://www.tensorflow.org/install/source_windows#tested_build_configurations</a></p></li>
+</ul>
+<p>To check Cuda version installed in computer, let use command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nvidia-smi
+nvcc --version
+</pre></div>
+</div>
+<p>When Cuda intalled sucessfully , now you can check tensorflow is supported tensorfllow version and gpu support. In code sample bellow , I will check version of python,pandas,tensorflow and list gpu supported.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="kn">import</span> <span class="nn">tensorflow.keras</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">sklearn</span> <span class="k">as</span> <span class="nn">sk</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Tensor Flow Version: </span><span class="si">{</span><span class="n">tf</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Keras Version: </span><span class="si">{</span><span class="n">tensorflow</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Python </span><span class="si">{</span><span class="n">sys</span><span class="o">.</span><span class="n">version</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Pandas </span><span class="si">{</span><span class="n">pd</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Scikit-Learn </span><span class="si">{</span><span class="n">sk</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">gpu</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">list_physical_devices</span><span class="p">(</span><span class="s1">&#39;GPU&#39;</span><span class="p">))</span><span class="o">&gt;</span><span class="mi">0</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;GPU is&quot;</span><span class="p">,</span> <span class="s2">&quot;available&quot;</span> <span class="k">if</span> <span class="n">gpu</span> <span class="k">else</span> <span class="s2">&quot;NOT AVAILABLE&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Tensor Flow Version: 2.10.0
+Keras Version: 2.10.0
+
+Python 3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]
+Pandas 1.5.1
+Scikit-Learn 1.1.2
+GPU is NOT AVAILABLE
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="start-with-tensorflow">
+<h2><span class="section-number">11.5.3. </span>Start with Tensorflow<a class="headerlink" href="#start-with-tensorflow" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">constant</span><span class="p">(</span><span class="s2">&quot;Hello TesorFlow&quot;</span><span class="p">)</span>
+<span class="n">tf</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+<span class="n">x1</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">constant</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">])</span>
+<span class="n">x2</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">constant</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">])</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span><span class="n">x2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+<span class="c1">#OUT = result </span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2.10.0
+Hello TesorFlow
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>tf.Tensor([ 5 12 21 32], shape=(4,), dtype=int32)
+</pre></div>
+</div>
+</div>
+</div>
+<p>Use GPU inside tensorflow :</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tf</span><span class="o">.</span><span class="n">debugging</span><span class="o">.</span><span class="n">set_log_device_placement</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">gpus</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">list_logical_devices</span><span class="p">(</span><span class="s1">&#39;GPU&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">gpus</span><span class="p">:</span>
+  <span class="c1"># Replicate your computation on multiple GPUs</span>
+  <span class="n">c</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">gpu</span> <span class="ow">in</span> <span class="n">gpus</span><span class="p">:</span>
+    <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="n">gpu</span><span class="o">.</span><span class="n">name</span><span class="p">):</span>
+      <span class="n">a</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">constant</span><span class="p">([[</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">],</span> <span class="p">[</span><span class="mf">4.0</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">,</span> <span class="mf">6.0</span><span class="p">]])</span>
+      <span class="n">b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">constant</span><span class="p">([[</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">],</span> <span class="p">[</span><span class="mf">3.0</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">],</span> <span class="p">[</span><span class="mf">5.0</span><span class="p">,</span> <span class="mf">6.0</span><span class="p">]])</span>
+      <span class="n">c</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
+  <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="s1">&#39;/CPU:0&#39;</span><span class="p">):</span>
+    <span class="n">matmul_sum</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add_n</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">matmul_sum</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<ul class="simple">
+<li><p>Read more discusstion at :</p></li>
+</ul>
+<p><a class="reference external" href="https://forum.dynamobim.com/t/is-python-3-in-dynamo-use-gpu-or-cpu/69619/11">https://forum.dynamobim.com/t/is-python-3-in-dynamo-use-gpu-or-cpu/69619/11</a></p>
+<p><a class="reference external" href="https://medium.com/&#64;medasuryatej/install-tensorflow-gpu-2-0-f4e215438199">https://medium.com/&#64;medasuryatej/install-tensorflow-gpu-2-0-f4e215438199</a></p>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -586,7 +817,7 @@ title="Print to PDF"
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./DynamoScripts"
+            path: "./DynamoML"
         },
         predefinedOutput: true
     }
@@ -600,17 +831,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../DynamoResolve/dynresolve.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="matplotlib.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><span class="section-number">17. </span>Dynamo Resolve Problem</p>
+            <p class="prev-next-title"><span class="section-number">11.4. </span>Matplotlib</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../DynamoPresentation/dynpresentation.html" title="next page">
+    <a class='right-next' id="next-link" href="../DynamoExtension/dynribbon.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">19. </span>Dynamo Presentation</p>
+        <p class="prev-next-title"><span class="section-number">12. </span>Dynamo Ribbon</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
