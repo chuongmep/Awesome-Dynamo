@@ -1,0 +1,104 @@
+{
+  "Uuid": "f2f500b4-502f-4969-b3ed-54d53ede3873",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "dewedwa",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import sys\r\nimport os\r\n\r\nlocalapp = os.getenv(r'LOCALAPPDATA')\r\n\r\nsys.path.append(r'C:\\Users\\Chuong.Ho\\appdata\\local\\programs\\python\\python38\\lib\\site-packages')\r\nimport numpy as np\r\nOUT = np.array([1,2,3,4,5,6])\r\n\r\n\r\n",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "6c4557a3c7f646009af934df2067b419",
+      "Inputs": [
+        {
+          "Id": "2cc4f7607e8e43b5880fc056210cc13f",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "cd6984fcc0ae4b4992785f2bc6dce257",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    }
+  ],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.0.5650",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Python Script",
+        "Id": "6c4557a3c7f646009af934df2067b419",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 438.33526999847396,
+        "Y": 408.56744542494062
+      }
+    ],
+    "Annotations": [],
+    "X": -285.16353476645929,
+    "Y": -507.42626936965985,
+    "Zoom": 1.5546925571943859
+  }
+}
