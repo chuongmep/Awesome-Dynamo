@@ -34,6 +34,7 @@ chapters:
   sections:
     - file: DynamoML/intro.md
     - file: DynamoML/installation.md
+    - file: DynamoML/numpy.md
 - file: DynamoExtension/dynribbon.md
 - file: DynamoYoutube/dynyoutube.md
 - file: DynamoSupport/dynsupport.md
