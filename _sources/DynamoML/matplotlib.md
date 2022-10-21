@@ -152,6 +152,11 @@ ax.set_zlabel('Z')
 ax.view_init(elev=20., azim=-35)
 plt.show()
 ```
+`Result:`
+```{toggle}
+![](../images/ML/matplot2.png)
+```
+
 `Download:`
 
 ```{button-link} https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/Matplot2Demo.dyn
