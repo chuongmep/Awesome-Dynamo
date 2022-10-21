@@ -10,8 +10,8 @@ OUT= sys.path,sys.version
 ```
 ```{figure} ../images/ML/checkpyversion.png
 ---
-height: 400px
-width: 650px
+height: 350px
+width: 700px
 name: directive-fig
 ---
 Check Version Python In Dynamo Core
