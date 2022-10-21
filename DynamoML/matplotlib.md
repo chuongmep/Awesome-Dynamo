@@ -13,7 +13,7 @@ kernelspec:
 
 [Matplotlib](https://matplotlib.org/) is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK. [Wikipedia](https://en.wikipedia.org/wiki/Matplotlib)
 
-# Install
+## Install
 
 To install Matplotlib, same with [Numpy](./numpy.md) tutorial, you can rename it with matplotlib to install.
 
@@ -28,7 +28,7 @@ name: matplotlibinstall-fig
 
 ```
 
-# Start with Mathplotlib
+## Start with Mathplotlib
 
 - Plot Sin Cos From [c.poupin  ](https://forum.dynamobim.com/u/c.poupin/summary)  
 

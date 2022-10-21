@@ -21,7 +21,7 @@ name: numpy-fig
 ```
 
 
-# Install
+## Install
 
 Use command to install library. Because I am using a lot of python versions on my machine to work( 3.8.3, 3.9.6, 3.10 ), so I will use this command to install Numpy correctly with working version of python.In this example, I using python `3.8`.
 
@@ -60,7 +60,7 @@ name: nympyinstalled-fig
 Numpy Package Installed
 ```
 
-# Start with Numpy
+## Start with Numpy
 
 Replace path lib with path in your computer before run script.
 
@@ -92,9 +92,9 @@ OUT = zeros.tolist()
 :shadow:
 ```
 
-# Resolve problem with install version
+## Resolve problem with install version
 
-## Module Not Found Error
+### Module Not Found Error
 
 `Module Not Found Error": No Module "numpy" [File "<string>"], line1 in <module> \n.`
 
@@ -114,7 +114,7 @@ import sys
 sys.path.append(r'C:\Users\Chuong.Ho\appdata\local\programs\python\python38\lib\site-packages')
 ```
 
-## NumPy version install not correct.
+### NumPy version install not correct.
 
 `Solution:` 
 - Uninstall NumPy
