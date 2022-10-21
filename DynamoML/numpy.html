@@ -87,7 +87,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/dynamo.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="11.7. Matplotlib" href="matplotlib.html" />
+    <link rel="next" title="11.4. Matplotlib" href="matplotlib.html" />
     <link rel="prev" title="11.2. Installation Python" href="installation.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -292,7 +292,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="matplotlib.html">
-     11.7. Matplotlib
+     11.4. Matplotlib
     </a>
    </li>
   </ul>
@@ -623,34 +623,29 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   11.3. Numpy
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#install">
-   11.4. Install
+   11.3.1. Install
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#start-with-numpy">
-   11.5. Start with Numpy
+   11.3.2. Start with Numpy
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#resolve-problem-with-install-version">
-   11.6. Resolve problem with install version
+   11.3.3. Resolve problem with install version
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#module-not-found-error">
-     11.6.1. Module Not Found Error
+     11.3.3.1. Module Not Found Error
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#numpy-version-install-not-correct">
-     11.6.2. NumPy version install not correct.
+     11.3.3.2. NumPy version install not correct.
     </a>
    </li>
   </ul>
@@ -674,34 +669,29 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   11.3. Numpy
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#install">
-   11.4. Install
+   11.3.1. Install
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#start-with-numpy">
-   11.5. Start with Numpy
+   11.3.2. Start with Numpy
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#resolve-problem-with-install-version">
-   11.6. Resolve problem with install version
+   11.3.3. Resolve problem with install version
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#module-not-found-error">
-     11.6.1. Module Not Found Error
+     11.3.3.1. Module Not Found Error
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#numpy-version-install-not-correct">
-     11.6.2. NumPy version install not correct.
+     11.3.3.2. NumPy version install not correct.
     </a>
    </li>
   </ul>
@@ -722,9 +712,8 @@ title="Print to PDF"
 <figure class="align-default" id="numpy-fig">
 <a class="reference internal image-reference" href="../_images/numpy.png"><img alt="../_images/numpy.png" src="../_images/numpy.png" style="height: 250px;" /></a>
 </figure>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="install">
-<h1><span class="section-number">11.4. </span>Install<a class="headerlink" href="#install" title="Permalink to this headline">#</a></h1>
+<section id="install">
+<h2><span class="section-number">11.3.1. </span>Install<a class="headerlink" href="#install" title="Permalink to this headline">#</a></h2>
 <p>Use command to install library. Because I am using a lot of python versions on my machine to work( 3.8.3, 3.9.6, 3.10 ), so I will use this command to install Numpy correctly with working version of <a class="reference external" href="http://python.In">python.In</a> this example, I using python <code class="docutils literal notranslate"><span class="pre">3.8</span></code>.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>py -3.8 -m pip install numpy
 </pre></div>
@@ -756,8 +745,8 @@ sys.path<span class="o">[</span><span class="m">5</span><span class="o">]</span>
 </figcaption>
 </figure>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="start-with-numpy">
-<h1><span class="section-number">11.5. </span>Start with Numpy<a class="headerlink" href="#start-with-numpy" title="Permalink to this headline">#</a></h1>
+<section id="start-with-numpy">
+<h2><span class="section-number">11.3.2. </span>Start with Numpy<a class="headerlink" href="#start-with-numpy" title="Permalink to this headline">#</a></h2>
 <p>Replace path lib with path in your computer before run script.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -791,10 +780,10 @@ sys.path<span class="o">[</span><span class="m">5</span><span class="o">]</span>
 <p><code class="docutils literal notranslate"><span class="pre">Download:</span></code></p>
 <p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-shadow-sm reference external" href="https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/demonumpy.dyn"><span>https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/demonumpy.dyn</span></a></p>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="resolve-problem-with-install-version">
-<h1><span class="section-number">11.6. </span>Resolve problem with install version<a class="headerlink" href="#resolve-problem-with-install-version" title="Permalink to this headline">#</a></h1>
+<section id="resolve-problem-with-install-version">
+<h2><span class="section-number">11.3.3. </span>Resolve problem with install version<a class="headerlink" href="#resolve-problem-with-install-version" title="Permalink to this headline">#</a></h2>
 <section id="module-not-found-error">
-<h2><span class="section-number">11.6.1. </span>Module Not Found Error<a class="headerlink" href="#module-not-found-error" title="Permalink to this headline">#</a></h2>
+<h3><span class="section-number">11.3.3.1. </span>Module Not Found Error<a class="headerlink" href="#module-not-found-error" title="Permalink to this headline">#</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">Module</span> <span class="pre">Not</span> <span class="pre">Found</span> <span class="pre">Error&quot;:</span> <span class="pre">No</span> <span class="pre">Module</span> <span class="pre">&quot;numpy&quot;</span> <span class="pre">[File</span> <span class="pre">&quot;&lt;string&gt;&quot;],</span> <span class="pre">line1</span> <span class="pre">in</span> <span class="pre">&lt;module&gt;</span> <span class="pre">\n.</span></code></p>
 <figure class="align-default" id="modulenumpyerror-fig">
 <a class="reference internal image-reference" href="../_images/modulenumpyerror.png"><img alt="../_images/modulenumpyerror.png" src="../_images/modulenumpyerror.png" style="height: 300px;" /></a>
@@ -810,7 +799,7 @@ Check pip to install or append package from python path</p>
 </div>
 </section>
 <section id="numpy-version-install-not-correct">
-<h2><span class="section-number">11.6.2. </span>NumPy version install not correct.<a class="headerlink" href="#numpy-version-install-not-correct" title="Permalink to this headline">#</a></h2>
+<h3><span class="section-number">11.3.3.2. </span>NumPy version install not correct.<a class="headerlink" href="#numpy-version-install-not-correct" title="Permalink to this headline">#</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">Solution:</span></code></p>
 <ul class="simple">
 <li><p>Uninstall NumPy</p></li>
@@ -824,6 +813,7 @@ Check pip to install or append package from python path</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>py -3.8 -m pip install <span class="nv">numpy</span><span class="o">==</span><span class="m">1</span>.18.1
 </pre></div>
 </div>
+</section>
 </section>
 </section>
 
@@ -864,7 +854,7 @@ Check pip to install or append package from python path</p>
     <a class='right-next' id="next-link" href="matplotlib.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">11.7. </span>Matplotlib</p>
+        <p class="prev-next-title"><span class="section-number">11.4. </span>Matplotlib</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
