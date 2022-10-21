@@ -31,6 +31,9 @@ chapters:
 - file: DynamoDeveloper/dyndeveloper.md
 - file: DynamoGenerativeDesign/dyngenerative.md
 - file: DynamoML/dynml.md
+  sections:
+    - file: DynamoML/intro.md
+    - file: DynamoML/installation.md
 - file: DynamoExtension/dynribbon.md
 - file: DynamoYoutube/dynyoutube.md
 - file: DynamoSupport/dynsupport.md
