@@ -5,7 +5,7 @@
 ```{figure} ../images/ML/DataML.png
 ---
 height: 500px
-name: directive-fig
+name: DataML-fig
 ---
 Use library python package apply for data science and machine learning
 ```
