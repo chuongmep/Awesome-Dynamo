@@ -265,10 +265,27 @@ const thebe_selector_output = ".output, .cell_output"
    10. Dynamo Generative Design
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../DynamoML/dynml.html">
    11. Dynamo Machine Learning
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoML/intro.html">
+     11.1. Introduction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoML/installation.html">
+     11.2. Installation Python
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoExtension/dynribbon.html">
@@ -626,8 +643,8 @@ title="Print to PDF"
 <section id="import-library">
 <h2><span class="section-number">8.1.2.1. </span>Import Library<a class="headerlink" href="#import-library" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="c516b58e-71b5-4637-91f9-9890b3bf0e5c" name="6cc04744-f7cf-4a0e-8cb5-f07e842f8790" type="radio">
-</input><label class="sd-tab-label" for="c516b58e-71b5-4637-91f9-9890b3bf0e5c">
+<input checked="checked" id="46f59b4c-92f5-4087-81d0-394597ea30e2" name="6199d7d5-32c0-45b8-b98f-372148556fbd" type="radio">
+</input><label class="sd-tab-label" for="46f59b4c-92f5-4087-81d0-394597ea30e2">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">clr</span>
 <span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitAPI&#39;</span><span class="p">)</span>
@@ -653,8 +670,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="0eaf824b-a877-40cc-9b3b-42731086cba1" name="6cc04744-f7cf-4a0e-8cb5-f07e842f8790" type="radio">
-</input><label class="sd-tab-label" for="0eaf824b-a877-40cc-9b3b-42731086cba1">
+<input id="51bde273-a32d-4fbb-81e9-855f6bd83c2d" name="6199d7d5-32c0-45b8-b98f-372148556fbd" type="radio">
+</input><label class="sd-tab-label" for="51bde273-a32d-4fbb-81e9-855f6bd83c2d">
 CSharp</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.DB</span><span class="p">;</span><span class="w"></span>
 <span class="k">using</span><span class="w"> </span><span class="nn">Dynamo.Graph.Nodes</span><span class="p">;</span><span class="w"></span>
@@ -670,8 +687,8 @@ CSharp</label><div class="sd-tab-content docutils">
 <section id="app-uiapp-document-uidocument">
 <h2><span class="section-number">8.1.2.2. </span>App,UIApp,Document,UIDocument<a class="headerlink" href="#app-uiapp-document-uidocument" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="1b5e7911-f718-4f36-836e-bf7a66f1a9ac" name="b4b93b1f-658b-4e98-9726-8e069c9f2366" type="radio">
-</input><label class="sd-tab-label" for="1b5e7911-f718-4f36-836e-bf7a66f1a9ac">
+<input checked="checked" id="322b29d0-a3aa-404e-a0ea-bc8a0b24549e" name="c5114bf0-9f8a-402b-97ba-4ebffbe9e89a" type="radio">
+</input><label class="sd-tab-label" for="322b29d0-a3aa-404e-a0ea-bc8a0b24549e">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span> <span class="o">=</span> <span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentDBDocument</span>
 <span class="n">uidoc</span><span class="o">=</span><span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentUIApplication</span><span class="o">.</span><span class="n">ActiveUIDocument</span>
@@ -680,8 +697,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="73bada05-9387-4c38-8386-be5ecd144822" name="b4b93b1f-658b-4e98-9726-8e069c9f2366" type="radio">
-</input><label class="sd-tab-label" for="73bada05-9387-4c38-8386-be5ecd144822">
+<input id="0f0b390c-e711-4d4f-a190-31c9f46145af" name="c5114bf0-9f8a-402b-97ba-4ebffbe9e89a" type="radio">
+</input><label class="sd-tab-label" for="0f0b390c-e711-4d4f-a190-31c9f46145af">
 CSharp</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentDBDocument</span><span class="p">;</span><span class="w"></span>
 <span class="n">uidoc</span><span class="p">=</span><span class="n">DocumentManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">CurrentUIApplication</span><span class="p">.</span><span class="n">ActiveUIDocument</span><span class="p">;</span><span class="w"></span>
@@ -719,8 +736,8 @@ CSharp</label><div class="sd-tab-content docutils">
 <section id="transaction">
 <h3><span class="section-number">8.1.2.3.3. </span>Transaction<a class="headerlink" href="#transaction" title="Permalink to this headline">#</a></h3>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="51f6c7d1-a168-409d-8368-7ca2c2388188" name="f12e0ad7-f7ed-4bab-989b-fd5909eed1c2" type="radio">
-</input><label class="sd-tab-label" for="51f6c7d1-a168-409d-8368-7ca2c2388188">
+<input checked="checked" id="706863cf-f7ed-44e9-8ee9-bc1bdb3c0fb0" name="e091e9c8-c4c4-4ced-b5bd-2d8076f69cbc" type="radio">
+</input><label class="sd-tab-label" for="706863cf-f7ed-44e9-8ee9-bc1bdb3c0fb0">
 Python</label><div class="sd-tab-content docutils">
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">clr</span>
 <span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitServices&#39;</span><span class="p">)</span>
@@ -735,8 +752,8 @@ Python</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="cff62007-195e-426b-880b-392586fed8ad" name="f12e0ad7-f7ed-4bab-989b-fd5909eed1c2" type="radio">
-</input><label class="sd-tab-label" for="cff62007-195e-426b-880b-392586fed8ad">
+<input id="064bd953-01cb-409f-a7a1-68668bf95533" name="e091e9c8-c4c4-4ced-b5bd-2d8076f69cbc" type="radio">
+</input><label class="sd-tab-label" for="064bd953-01cb-409f-a7a1-68668bf95533">
 Zero Touch Node</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.DB</span><span class="p">;</span><span class="w"></span>
 <span class="k">using</span><span class="w"> </span><span class="nn">RevitServices.Persistence</span><span class="p">;</span><span class="w"></span>
@@ -749,8 +766,8 @@ Zero Touch Node</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="ba923cbe-ef73-4096-a89a-68c11d5a2db5" name="f12e0ad7-f7ed-4bab-989b-fd5909eed1c2" type="radio">
-</input><label class="sd-tab-label" for="ba923cbe-ef73-4096-a89a-68c11d5a2db5">
+<input id="3aa0be5e-d354-49a0-a707-f311413dec39" name="e091e9c8-c4c4-4ced-b5bd-2d8076f69cbc" type="radio">
+</input><label class="sd-tab-label" for="3aa0be5e-d354-49a0-a707-f311413dec39">
 Revit API</label><div class="sd-tab-content docutils">
 <div class="highlight-cs notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.ApplicationServices</span><span class="p">;</span><span class="w"></span>
 <span class="k">using</span><span class="w"> </span><span class="nn">Autodesk.Revit.Attributes</span><span class="p">;</span><span class="w"></span>

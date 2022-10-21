@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Dynamo Revit Python Script Templete &#8212; Awesome Dynamo</title>
+    <title>11.1. Introduction &#8212; Awesome Dynamo</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -42,6 +42,40 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "chuongmep/Awesome-Dynamo");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -50,10 +84,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/dynamo.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Dynamo Developer" href="../DynamoDeveloper/dyndeveloper.html" />
-    <link rel="prev" title="Dynamo Templete" href="dyntemplete.html" />
+    <link rel="next" title="11.2. Installation Python" href="installation.html" />
+    <link rel="prev" title="11. Dynamo Machine Learning" href="dynml.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -116,17 +151,22 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../how_to_read.html">
-   How To Read This Book
+   1. How To Read This Book
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoPage/dynpage.html">
-   Dynamo  Main Page
+   2. Dynamo Page
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoLearning/dynlearning.html">
+   3. Dynamo Learning
   </a>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../DynamoVersion/dynversion.html">
-   Dynamo Version
+   4. Dynamo Version
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -136,24 +176,29 @@ const thebe_selector_output = ".output, .cell_output"
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoVersion/civil3d.html">
-     Dynamo Civil3D Version
+     4.1. Dynamo Civil3D Version
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoVersion/revit.html">
-     Dynamo Revit Version
+     4.2. Dynamo Revit Version
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoVersion/formit.html">
-     Dynamo Formit Version
+     4.3. Dynamo Formit Version
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoVersion/alias.html">
+     4.4. Dynamo Alias Version
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../DynamoPackage/dynpackage.html">
-   Dynamo Package
+   5. Dynamo Package
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
   <label for="toctree-checkbox-2">
@@ -163,96 +208,133 @@ const thebe_selector_output = ".output, .cell_output"
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoPackage/dynpathpackage.html">
-     Dynamo Path Package
+     5.1. Dynamo Path Package
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoPackage/dyndevelopackage.html">
-     Dynamo Developer
+     5.2. Dynamo Package Useful
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoScripts/dynscripts.html">
-   Dynamo Scripts
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoCheetSheet/dyncheetsheet.html">
-   Dynamo Cheet Sheet
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="../DynamoOpenSource/dynopensource.html">
-   Dynamo Open Source
+   6. Dynamo Open Source
   </a>
  </li>
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="dyntemplete.html">
-   Dynamo Templete
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoPython/dynpython.html">
+   7. Dynamo Python
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../DynamoTemplete/dyntemplete.html">
+   8. Dynamo Templete
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     Dynamo Revit Python Script Templete
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoTemplete/designscripttemplete.html">
+     8.1.1. Design Script Templete
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoTemplete/pythonrevittemplte.html">
+     8.1.2. Revit Python Script Templete
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoTemplete/zerotouchtemplete.html">
+     8.1.3. Zero Touch Templete
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoDeveloper/dyndeveloper.html">
-   Dynamo Developer
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoPython/dynpython.html">
-   Dynamo Python
+   9. Dynamo Developer
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoGenerativeDesign/dyngenerative.html">
-   Dynamo Generative Design
+   10. Dynamo Generative Design
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="dynml.html">
+   11. Dynamo Machine Learning
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     11.1. Introduction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="installation.html">
+     11.2. Installation Python
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoExtension/dynribbon.html">
+   12. Dynamo Ribbon
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoML/dynml.html">
-   Dynamo Machine Learning
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoChat/dynchar.html">
-   Dynamo Chat
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoAuthor/dynauthor.html">
-   Dynamo Author
+  <a class="reference internal" href="../DynamoYoutube/dynyoutube.html">
+   13. Dynamo Youtube
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoSupport/dynsupport.html">
-   Dynamo Support
+   14. Dynamo Support
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoMeeting/dynmeeting.html">
-   Dynamo Meeting
+   15. Dynamo Meeting
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoShortcuts/dynshortcuts.html">
-   Dynamo Keyboard Shortcuts
+   16. Dynamo Keyboard Shortcuts
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoResolve/dynresolve.html">
-   Dynamo Resolve Problem
+   17. Dynamo Resolve Problem
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoScripts/dynscripts.html">
+   18. Dynamo Scripts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoPresentation/dynpresentation.html">
+   19. Dynamo Presentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoCheetSheet/dyncheetsheet.html">
+   20. Dynamo Cheet Sheet
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoShowCase/dynshowcase.html">
+   21. Dynamo Show Case
   </a>
  </li>
 </ul>
@@ -328,7 +410,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://github.com/chuongmep/awesome-dynamo"
+        <a href="https://github.com/chuongmep/Awesome-Dynamo"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -345,7 +427,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/chuongmep/awesome-dynamo/issues/new?title=Issue%20on%20page%20%2FDynamoTemplete/revittemplte.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/chuongmep/Awesome-Dynamo/issues/new?title=Issue%20on%20page%20%2FDynamoML/intro.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -362,7 +444,7 @@ title="Open an issue"
       </li>
       
       <li>
-        <a href="https://github.com/chuongmep/awesome-dynamo/edit/master/docs/DynamoTemplete/revittemplte.md"
+        <a href="https://github.com/chuongmep/Awesome-Dynamo/edit/master/DynamoML/intro.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -390,7 +472,7 @@ title="Edit this page"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/DynamoTemplete/revittemplte.md"
+        <a href="../_sources/DynamoML/intro.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -439,7 +521,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Dynamo Revit Python Script Templete</h1>
+                <h1>Introduction</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -451,77 +533,23 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="dynamo-revit-python-script-templete">
-<h1>Dynamo Revit Python Script Templete<a class="headerlink" href="#dynamo-revit-python-script-templete" title="Permalink to this headline">#</a></h1>
-<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">clr</span>
-
-<span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitAPI&#39;</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">Autodesk.Revit.DB</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="kn">from</span> <span class="nn">Autodesk.Revit.DB.Structure</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitAPIUI&#39;</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">Autodesk.Revit.UI</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;System&#39;</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">System.Collections.Generic</span> <span class="kn">import</span> <span class="n">List</span>
-
-<span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitNodes&#39;</span><span class="p">)</span>
-<span class="kn">import</span> <span class="nn">Revit</span>
-<span class="n">clr</span><span class="o">.</span><span class="n">ImportExtensions</span><span class="p">(</span><span class="n">Revit</span><span class="o">.</span><span class="n">GeometryConversion</span><span class="p">)</span>
-<span class="n">clr</span><span class="o">.</span><span class="n">ImportExtensions</span><span class="p">(</span><span class="n">Revit</span><span class="o">.</span><span class="n">Elements</span><span class="p">)</span>
-
-<span class="n">clr</span><span class="o">.</span><span class="n">AddReference</span><span class="p">(</span><span class="s1">&#39;RevitServices&#39;</span><span class="p">)</span>
-<span class="kn">import</span> <span class="nn">RevitServices</span>
-<span class="kn">from</span> <span class="nn">RevitServices.Persistence</span> <span class="kn">import</span> <span class="n">DocumentManager</span>
-<span class="kn">from</span> <span class="nn">RevitServices.Transactions</span> <span class="kn">import</span> <span class="n">TransactionManager</span>
-
-<span class="kn">import</span> <span class="nn">System</span> 
-<span class="kn">from</span> <span class="nn">System.Collections.Generic</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;C:\Program Files (x86)\IronPython 2.7\Lib&#39;</span><span class="p">)</span>
-
-<span class="n">doc</span> <span class="o">=</span> <span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentDBDocument</span>
-<span class="n">uidoc</span><span class="o">=</span><span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentUIApplication</span><span class="o">.</span><span class="n">ActiveUIDocument</span>
-<span class="n">uiapp</span> <span class="o">=</span> <span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentUIApplication</span>
-<span class="n">app</span> <span class="o">=</span> <span class="n">DocumentManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">CurrentUIApplication</span><span class="o">.</span><span class="n">Application</span>
-
-<span class="k">def</span> <span class="nf">tolist</span><span class="p">(</span><span class="n">obj1</span><span class="p">):</span>
-	<span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">obj1</span><span class="p">,</span><span class="s1">&#39;__iter__&#39;</span><span class="p">)</span> <span class="p">:</span> <span class="k">return</span> <span class="n">obj1</span>
-	<span class="k">else</span> <span class="p">:</span> <span class="k">return</span> <span class="p">[</span><span class="n">obj1</span><span class="p">]</span>
-<span class="c1"># toList = lambda x : x if hasattr(x, &#39;__iter__&#39;) else [x]</span>
-<span class="c1"># element = toList(UnwrapElement(IN[0]))</span>
-<span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
-        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">el</span><span class="p">,</span> <span class="s2">&quot;__iter__&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">el</span><span class="p">,</span> <span class="n">basestring</span><span class="p">):</span>
-            <span class="n">result</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">flatten</span><span class="p">(</span><span class="n">el</span><span class="p">))</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">result</span>
-<span class="c1">#Preparing input from dynamo to revit</span>
-<span class="n">element</span> <span class="o">=</span> <span class="n">UnwrapElement</span><span class="p">(</span><span class="n">tolist</span><span class="p">(</span><span class="n">IN</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
-
-<span class="c1">#Do some action in a Transaction</span>
-<span class="n">TransactionManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">EnsureInTransaction</span><span class="p">(</span><span class="n">doc</span><span class="p">)</span>
-<span class="c1">#Do Action</span>
-<span class="n">TransactionManager</span><span class="o">.</span><span class="n">Instance</span><span class="o">.</span><span class="n">TransactionTaskDone</span><span class="p">()</span>
-
-<span class="n">OUT</span> <span class="o">=</span> <span class="n">element</span>
-</pre></div>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>More
-<a class="reference external" href="https://primer.dynamobim.org/10_Custom-Nodes/10-6_Python-Templates.html">https://primer.dynamobim.org/10_Custom-Nodes/10-6_Python-Templates.html</a></p>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1><span class="section-number">11.1. </span>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h1>
+<p><strong>CPython3</strong> is a very powerful language in taking advantage of rich open-source libraries. Therefore, it is necessary to make good use of Dynamo to use it for many purposes, especially to use them. For machine learning or data analysis purposes. <a class="reference external" href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;ved=2ahUKEwjU-5WFrfnzAhUSG6YKHU0CAdEQmhN6BAg9EAI&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNumPy&amp;usg=AOvVaw3dakKRl4OLwnaycci8C1rm">Wikipedia</a></p>
+<figure class="align-default" id="directive-fig">
+<a class="reference internal image-reference" href="../_images/DataML.png"><img alt="../_images/DataML.png" src="../_images/DataML.png" style="height: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.1 </span><span class="caption-text">Use library python package apply for data science and machine learning</span><a class="headerlink" href="#directive-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>This article is one I wrote to help the developers install to avoid the errors that arise when installing external libraries into dynamo without any problems.</p>
 </section>
 
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "chuongmep/Awesome-Dynamo",
             ref: "master",
         },
         codeMirrorConfig: {
@@ -530,7 +558,7 @@ title="Print to PDF"
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./DynamoTemplete"
+            path: "./DynamoML"
         },
         predefinedOutput: true
     }
@@ -544,17 +572,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="dyntemplete.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="dynml.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Dynamo Templete</p>
+            <p class="prev-next-title"><span class="section-number">11. </span>Dynamo Machine Learning</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../DynamoDeveloper/dyndeveloper.html" title="next page">
+    <a class='right-next' id="next-link" href="installation.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Dynamo Developer</p>
+        <p class="prev-next-title"><span class="section-number">11.2. </span>Installation Python</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

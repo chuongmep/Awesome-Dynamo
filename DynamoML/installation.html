@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Dynamo Author &#8212; Awesome Dynamo</title>
+    <title>11.2. Installation Python &#8212; Awesome Dynamo</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -42,6 +42,40 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "chuongmep/Awesome-Dynamo");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -50,10 +84,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/dynamo.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="../DynamoYoutube/dynyoutube.html" />
-    <link rel="prev" title="Dynamo Chat" href="../DynamoChat/dynchar.html" />
+    <link rel="next" title="12. Dynamo Ribbon" href="../DynamoExtension/dynribbon.html" />
+    <link rel="prev" title="11.1. Introduction" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -116,17 +151,22 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../how_to_read.html">
-   How To Read This Book
+   1. How To Read This Book
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoPage/dynpage.html">
-   Dynamo  Main Page
+   2. Dynamo Page
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoLearning/dynlearning.html">
+   3. Dynamo Learning
   </a>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../DynamoVersion/dynversion.html">
-   Dynamo Version
+   4. Dynamo Version
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -136,24 +176,29 @@ const thebe_selector_output = ".output, .cell_output"
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoVersion/civil3d.html">
-     Dynamo Civil3D Version
+     4.1. Dynamo Civil3D Version
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoVersion/revit.html">
-     Dynamo Revit Version
+     4.2. Dynamo Revit Version
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoVersion/formit.html">
-     Dynamo Formit Version
+     4.3. Dynamo Formit Version
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoVersion/alias.html">
+     4.4. Dynamo Alias Version
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../DynamoPackage/dynpackage.html">
-   Dynamo Package
+   5. Dynamo Package
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
   <label for="toctree-checkbox-2">
@@ -163,34 +208,29 @@ const thebe_selector_output = ".output, .cell_output"
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoPackage/dynpathpackage.html">
-     Dynamo Path Package
+     5.1. Dynamo Path Package
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoPackage/dyndevelopackage.html">
-     Dynamo Developer
+     5.2. Dynamo Package Useful
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoScripts/dynscripts.html">
-   Dynamo Scripts
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoCheetSheet/dyncheetsheet.html">
-   Dynamo Cheet Sheet
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="../DynamoOpenSource/dynopensource.html">
-   Dynamo Open Source
+   6. Dynamo Open Source
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoPython/dynpython.html">
+   7. Dynamo Python
   </a>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../DynamoTemplete/dyntemplete.html">
-   Dynamo Templete
+   8. Dynamo Templete
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
@@ -199,65 +239,102 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
+    <a class="reference internal" href="../DynamoTemplete/designscripttemplete.html">
+     8.1.1. Design Script Templete
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../DynamoTemplete/pythonrevittemplte.html">
-     Dynamo Revit Python Script Templete
+     8.1.2. Revit Python Script Templete
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../DynamoTemplete/zerotouchtemplete.html">
-     Zero Touch Templete
+     8.1.3. Zero Touch Templete
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoDeveloper/dyndeveloper.html">
-   Dynamo Developer
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoPython/dynpython.html">
-   Dynamo Python
+   9. Dynamo Developer
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoGenerativeDesign/dyngenerative.html">
-   Dynamo Generative Design
+   10. Dynamo Generative Design
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="dynml.html">
+   11. Dynamo Machine Learning
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="intro.html">
+     11.1. Introduction
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     11.2. Installation Python
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoExtension/dynribbon.html">
+   12. Dynamo Ribbon
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoML/dynml.html">
-   Dynamo Machine Learning
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../DynamoChat/dynchar.html">
-   Dynamo Chat
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Dynamo Author
+  <a class="reference internal" href="../DynamoYoutube/dynyoutube.html">
+   13. Dynamo Youtube
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoSupport/dynsupport.html">
-   Dynamo Support
+   14. Dynamo Support
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoMeeting/dynmeeting.html">
-   Dynamo Meeting
+   15. Dynamo Meeting
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoShortcuts/dynshortcuts.html">
-   Dynamo Keyboard Shortcuts
+   16. Dynamo Keyboard Shortcuts
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../DynamoResolve/dynresolve.html">
-   Dynamo Resolve Problem
+   17. Dynamo Resolve Problem
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoScripts/dynscripts.html">
+   18. Dynamo Scripts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoPresentation/dynpresentation.html">
+   19. Dynamo Presentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoCheetSheet/dyncheetsheet.html">
+   20. Dynamo Cheet Sheet
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoShowCase/dynshowcase.html">
+   21. Dynamo Show Case
   </a>
  </li>
 </ul>
@@ -333,7 +410,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://github.com/chuongmep/awesome-dynamo"
+        <a href="https://github.com/chuongmep/Awesome-Dynamo"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -350,7 +427,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/chuongmep/awesome-dynamo/issues/new?title=Issue%20on%20page%20%2FDynamoAuthor/dynauthor.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/chuongmep/Awesome-Dynamo/issues/new?title=Issue%20on%20page%20%2FDynamoML/installation.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -367,7 +444,7 @@ title="Open an issue"
       </li>
       
       <li>
-        <a href="https://github.com/chuongmep/awesome-dynamo/edit/master/docs/DynamoAuthor/dynauthor.md"
+        <a href="https://github.com/chuongmep/Awesome-Dynamo/edit/master/DynamoML/installation.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -395,7 +472,7 @@ title="Edit this page"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/DynamoAuthor/dynauthor.md"
+        <a href="../_sources/DynamoML/installation.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -432,60 +509,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#dynamo-authors-can-support">
-   Dynamo Authors Can Support
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Dynamo Author</h1>
+                <h1>Installation Python</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#dynamo-authors-can-support">
-   Dynamo Authors Can Support
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -493,60 +533,71 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="dynamo-author">
-<h1>Dynamo Author<a class="headerlink" href="#dynamo-author" title="Permalink to this headline">#</a></h1>
-<section id="dynamo-authors-can-support">
-<h2>Dynamo Authors Can Support<a class="headerlink" href="#dynamo-authors-can-support" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/Amoursol">Amoursol</a>: Author at Autodesk, blogger Dynamo page</p></li>
-<li><p><a class="reference external" href="https://forum.dynamobim.com/u/jacobsmall/summary">Jacob Small</a>: Author at Autodesk</p></li>
-<li><p><a class="reference external" href="https://forum.dynamobim.com/u/kulkul/summary">Kulkul</a>: Leader at dynamo forum</p></li>
-<li><p><a class="reference external" href="https://github.com/jeremytammik">Jeremy Tammik</a>: Author page thebuildingcoder</p></li>
-<li><p><a class="reference external" href="https://twitter.com/marcellosgamb">Marcello Sambelluri</a>: Author Handbook Dynamo and Grasshopper for Revit Cheat Sheet Reference Manual</p></li>
-<li><p><a class="reference external" href="https://github.com/andydandy74">Andreas Dieckmann</a>: Author Clockwork Package</p></li>
-<li><p><a class="reference external" href="https://github.com/ThomasMahon">Thomas Mahon</a>: Author Package Bimorph Nodes</p></li>
-<li><p><a class="reference external" href="https://github.com/ksobon">Konrad Sobon</a>: Author package <span class="xref myst">archilad-net,</span> Bumblebee</p></li>
-<li><p><a class="reference external" href="https://github.com/dimven/SpringNodes">Dimitar Venkov</a>: Author Package SpringNodes</p></li>
-<li><p><a class="reference external" href="https://github.com/johnpierson">John Pierson</a>: Author packages Bang and Rhythm, monocles,..</p></li>
-<li><p><a class="reference external" href="https://github.com/mjkkirschner">Michael Kirschner</a>: Author Package Dynamonfold</p></li>
-<li><p><a class="reference external" href="https://github.com/aussieBIMguru">Gavin Crump</a>: Author of BIM Guru and package Crumple</p></li>
-<li><p><a class="reference external" href="https://github.com/gtalarico">Gui Talarico</a>: Author <a class="reference external" href="https://www.revitapidocs.com/">https://www.revitapidocs.com/</a> , revitpythonwrapper ,..</p></li>
-<li><p><a class="reference external" href="https://twitter.com/archinate?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Aprovinggroundio%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VtYmVkX2NsaWNrYWJpbGl0eV8xMjEwMiI6eyJidWNrZXQiOiJjb250cm9sIiwidmVyc2lvbiI6bnVsbH19&amp;ref_url=https%3A%2F%2Fprovingground.io%2F">Nathan Miller</a>: Author package Lunchbox</p></li>
-<li><p><a class="reference external" href="https://github.com/teocomi">Matteo Cominetti:</a> Founder of Speckle</p></li>
-<li><p>G<a class="reference external" href="https://github.com/giobel">iobel</a>: Author of channel <a class="reference external" href="https://www.youtube.com/channel/UCiDE0GctsWlA28FqxKq_vPA">Gioru</a> Youtube</p></li>
-<li><p><a class="reference external" href="https://github.com/dimven">Dimitar Venkov</a>: Author package SpringNodes</p></li>
-<li><p><a class="reference external" href="https://github.com/OliverEGreen">Ollie Green:</a> Author of DynamoPythonPrimer</p></li>
-<li><p><a class="reference external" href="https://github.com/SHKnudsen">Sylvester Knudsen</a>: Author package Pandamo</p></li>
-<li><p><a class="reference external" href="https://github.com/LongNguyenP">Long Nguyen</a>: Author Package Dynashape</p></li>
-<li><p><a class="reference external" href="https://github.com/nonoesp?tab=repositories">Nono Martínez Alonso</a> :</p></li>
-<li><p><a class="reference external" href="https://github.com/htlcnn">Hoang Thanh Long</a> : python developer, Civid3d dynamo</p></li>
-<li><p><a class="reference external" href="https://github.com/alvpickmans">Alvaro Ortega Pickmans</a>: Author package Graphical, Jsondata,…</p></li>
-<li><p><a class="reference external" href="https://www.linkedin.com/in/danadefilippi/">Dana De Filippi</a>: Author of Channel DanamoBIM</p></li>
-<li><p>Sean Page : <a class="reference external" href="https://www.linkedin.com/in/sean-page-aia-ncarb-leed-ap-b06b0041/">https://www.linkedin.com/in/sean-page-aia-ncarb-leed-ap-b06b0041/</a></p></li>
-<li><p>Marcel Rijsmus : <a class="reference external" href="https://forum.dynamobim.com/u/marcel_rijsmus/summary">https://forum.dynamobim.com/u/marcel_rijsmus/summary</a></p></li>
-<li><p><a class="reference external" href="https://forum.dynamobim.com/u/c.poupin/summary">c.poupin</a>: Author blog <a class="reference external" href="http://voltadynabim.blogspot.com/">voltadynabim.blogspot.com</a></p></li>
-<li><p><a class="reference external" href="https://github.com/erfajo">Erfajo</a>: Author Package Orchid in Dynamo</p></li>
-<li><p><a class="reference external" href="https://www.linkedin.com/in/ewan-opie-746b577b/">Ewan Opie</a>: Author Sastrugi package</p></li>
-<li><p><a class="reference external" href="https://github.com/simonmoreau">Simon Moreau</a>: Author Package DynamoMEP</p></li>
-<li><p><a class="reference external" href="https://forum.dynamobim.com/u/t_pover/summary">T_Pover</a>:  Author package MEPover</p></li>
-<li><p><a class="reference external" href="https://github.com/chuongmep">Chuongho</a>: Author Package DynaMEP</p></li>
-<li><p><a class="reference external" href="https://forum.dynamobim.com/u/nick_boyts/summary">Nick Boyts</a>: Senior BIM/VDC Applications Specialist</p></li>
-<li><p><a class="reference external" href="https://github.com/albandechasteigner">Alban de Chasteigner</a>: Author Package Genius Loci</p></li>
-<li><p><a class="reference external" href="http://aectechy.com/about/">Han</a> : Author package Aectech’s Dynamo</p></li>
-<li><p><a class="reference external" href="https://github.com/MostafaElAyoubi">Mostafa El Ayoubi</a>: Author package data-shapes</p></li>
-<li><p><a class="reference external" href="https://github.com/andre-abotnes">André Abotnes</a> : Author package RIE dynamo</p></li>
-<li><p><a class="reference external" href="https://github.com/vinnividivicci">Vincent Cadoret</a>: Author package BIMOne.GoogleSheets</p></li>
-<li><p><a class="reference external" href="https://twitter.com/thebimsider">Carl Storms</a>: Author of <a class="reference external" href="http://thebimsider.com">thebimsider.com</a></p></li>
-<li><p><a class="reference external" href="https://github.com/mgjean">Min Naung</a>: Author blog <a class="reference external" href="https://twentytwo.space/">https://twentytwo.space/</a></p></li>
-</ul>
-</section>
+  <section class="tex2jax_ignore mathjax_ignore" id="installation-python">
+<h1><span class="section-number">11.2. </span>Installation Python<a class="headerlink" href="#installation-python" title="Permalink to this headline">#</a></h1>
+<p>To download version <code class="docutils literal notranslate"><span class="pre">suitable</span></code>, you need to go to a <a class="reference external" href="https://www.python.org/downloads/">website</a> of python to install.</p>
+<p>Before decide which version to download, you need to quickly check the current version of <strong>Dynamo Core</strong>. Based on the basic syntax below, the exact version you require to download will be displayed.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">OUT</span><span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">,</span><span class="n">sys</span><span class="o">.</span><span class="n">version</span>
+</pre></div>
+</div>
+<figure class="align-default" id="directive-fig">
+<a class="reference internal image-reference" href="../_images/checkpyversion.png"><img alt="../_images/checkpyversion.png" src="../_images/checkpyversion.png" style="width: 650px; height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.2 </span><span class="caption-text">Check Version Python In Dynamo Core</span><a class="headerlink" href="#directive-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>From the image above, it shows that the <strong>version</strong> you need to install is <strong>3.8.3 64bit</strong>. So quickly look for the download link on the homepage and install them.</p>
+<p><em>Let go to link and select to install</em> : <a class="reference external" href="https://www.python.org/downloads/release/python-383/">https://www.python.org/downloads/release</a></p>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../_images/dowloadpython.png"><img alt="../_images/dowloadpython.png" src="../_images/dowloadpython.png" style="width: 800px; height: 300px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.3 </span><span class="caption-text">Select python version and download to install.</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>A small note for you is to decide to choose additional paths if you need to use them on other <a class="reference external" href="https://docs.python.org/3/library/idle.html">IDE</a> like Visual Studio Code to work.</p>
+<figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../_images/pythoninstall1.png"><img alt="../_images/pythoninstall1.png" src="../_images/pythoninstall1.png" style="width: 600px; height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.4 </span><span class="caption-text">Install Python</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>In <code class="docutils literal notranslate"><span class="pre">Custom</span> <span class="pre">installation</span></code>, please note, make sure you have selected pip and allow installing, this will make it easy to install the backend library.</p>
+<figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../_images/custominstallation.png"><img alt="../_images/custominstallation.png" src="../_images/custominstallation.png" style="width: 600px; height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.5 </span><span class="caption-text">Custom Installation Python</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Check <a class="reference external" href="https://en.wikipedia.org/wiki/Pip_(package_manager)">pip</a> to complete.</p>
+<figure class="align-default" id="id4">
+<a class="reference internal image-reference" href="../_images/selectpip.png"><img alt="../_images/selectpip.png" src="../_images/selectpip.png" style="width: 600px; height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.6 </span><span class="caption-text">Check Python Package Manager Python</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Once everything is correct, go back and select Install Now to proceed with the installation.</p>
+<figure class="align-default" id="id5">
+<a class="reference internal image-reference" href="../_images/clickinstallpython.png"><img alt="../_images/clickinstallpython.png" src="../_images/clickinstallpython.png" style="width: 600px; height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.7 </span><span class="caption-text">Click Install Python</span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>As a first step, you should check that you have a working Python installed. This can be done by running the following commands and making sure that the output looks similar.</p>
+<p>Open <strong>CMD</strong> or <strong>Windows PowerShell</strong> With Admin And Command <code class="docutils literal notranslate"><span class="pre">python</span></code></p>
+<figure class="align-default" id="id6">
+<a class="reference internal image-reference" href="../_images/checkpython.png"><img alt="../_images/checkpython.png" src="../_images/checkpython.png" style="width: 700px; height: 200px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11.8 </span><span class="caption-text">Check Python Installed</span><a class="headerlink" href="#id6" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "chuongmep/Awesome-Dynamo",
             ref: "master",
         },
         codeMirrorConfig: {
@@ -555,7 +606,7 @@ title="Print to PDF"
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./DynamoAuthor"
+            path: "./DynamoML"
         },
         predefinedOutput: true
     }
@@ -569,17 +620,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../DynamoChat/dynchar.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Dynamo Chat</p>
+            <p class="prev-next-title"><span class="section-number">11.1. </span>Introduction</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../DynamoYoutube/dynyoutube.html" title="next page">
+    <a class='right-next' id="next-link" href="../DynamoExtension/dynribbon.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title"><span class="section-number">12. </span>Dynamo Ribbon</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
