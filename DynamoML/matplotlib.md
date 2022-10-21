@@ -52,6 +52,12 @@ ax.legend()
 ax.set_title("sin(x) and cos(x)")
 plt.show()
 ```
+`Download:`
+
+```{button-link} https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/MatplotDemo.dyn
+:color: primary
+:shadow:
+```
 
 Because some error when we use **plt.show()** in Dynamo, so we need convert to bitmap before.
 
@@ -145,4 +151,10 @@ ax.set_zlabel('Z')
 # on the plane y=0
 ax.view_init(elev=20., azim=-35)
 plt.show()
+```
+`Download:`
+
+```{button-link} https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/Matplot2Demo.dyn
+:color: primary
+:shadow:
 ```
