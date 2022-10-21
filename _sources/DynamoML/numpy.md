@@ -1,3 +1,13 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
 # Numpy
 
 [NumPy](https://numpy.org/) is a library for the Python programming language, adding support for large, multidimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
@@ -54,7 +64,7 @@ Numpy Package Installed
 
 Replace path lib with path in your computer before run script.
 
-```py
+```{code-cell} ipython3
 import numpy as np
 zeros = np.zeros(5)
 zeros.tolist()
