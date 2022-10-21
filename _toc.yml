@@ -36,6 +36,7 @@ chapters:
     - file: DynamoML/installation.md
     - file: DynamoML/numpy.md
     - file: DynamoML/matplotlib.md
+    - file: DynamoML/tensorflow.md
 - file: DynamoExtension/dynribbon.md
 - file: DynamoYoutube/dynyoutube.md
 - file: DynamoSupport/dynsupport.md

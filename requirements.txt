@@ -1,4 +1,7 @@
 jupyter-book
 matplotlib
 numpy
+pandas
 PIL
+tensorflow
+sklearn
