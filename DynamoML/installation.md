@@ -82,3 +82,4 @@ name: directive-fig
 ---
 Check Python Installed
 ```
+If information show in your computer like image, process python install completed.
