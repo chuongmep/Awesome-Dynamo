@@ -12,7 +12,7 @@ OUT= sys.path,sys.version
 ---
 height: 350px
 width: 700px
-name: directive-fig
+name: dynver-fig
 ---
 Check Version Python In Dynamo Core
 ```
@@ -24,7 +24,7 @@ From the image above, it shows that the **version** you need to install is **3.8
 ---
 height: 300px
 width: 800px
-name: directive-fig
+name: pyver-fig
 ---
 Select python version and download to install.
 ```
@@ -34,7 +34,7 @@ A small note for you is to decide to choose additional paths if you need to use 
 ---
 height: 400px
 width: 600px
-name: directive-fig
+name: pyinstall1-fig
 ---
 Install Python
 ```
@@ -45,7 +45,7 @@ In `Custom installation`, please note, make sure you have selected pip and allow
 ---
 height: 400px
 width: 600px
-name: directive-fig
+name: custominstallation-fig
 ---
 Custom Installation Python
 ```
@@ -55,7 +55,7 @@ Check [pip](https://en.wikipedia.org/wiki/Pip_(package_manager)) to complete.
 ---
 height: 400px
 width: 600px
-name: directive-fig
+name: selectpip-fig
 ---
 Check Python Package Manager Python
 ```
@@ -66,7 +66,7 @@ Once everything is correct, go back and select Install Now to proceed with the i
 ---
 height: 400px
 width: 600px
-name: directive-fig
+name: clickinstallpython-fig
 ---
 Click Install Python
 ```
@@ -78,7 +78,7 @@ Open **CMD** or **Windows PowerShell** With Admin And Command `python`
 ---
 height: 200px
 width: 700px
-name: directive-fig
+name: checkpython-fig
 ---
 Check Python Installed
 ```

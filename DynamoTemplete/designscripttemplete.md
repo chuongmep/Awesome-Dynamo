@@ -5,7 +5,7 @@ This section provide for you templete to easy crete new one script.
 ```{figure} ../images/DynamoTemplate.png
 ---
 height: 500px
-name: directive-fig
+name: DynamoTemplate-fig
 ---
 Preview Dynamo templete
 ```

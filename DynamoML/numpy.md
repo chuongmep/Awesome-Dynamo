@@ -5,7 +5,7 @@
 ```{figure} ../images/ML/numpy.png
 ---
 height: 250px
-name: directive-fig
+name: numpy-fig
 ---
 
 ```
@@ -36,7 +36,7 @@ sys.path[5]
 ```{figure} ../images/ML/sitepackage.png
 ---
 height: 250px
-name: directive-fig
+name: sitepackage-fig
 ---
 Check Path Installed Package Python
 ```
@@ -45,7 +45,7 @@ Finally, you should make sure all functions and Numpy have installed successfull
 ```{figure} ../images/ML/nympyinstalled.png
 ---
 height: 500px
-name: directive-fig
+name: nympyinstalled-fig
 ---
 Numpy Package Installed
 ```
@@ -80,4 +80,39 @@ OUT = zeros.tolist()
 ```{button-link} https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/demonumpy.dyn
 :color: primary
 :shadow:
+```
+
+# Resolve problem with install version
+
+## Module Not Found Error
+
+`Module Not Found Error": No Module "numpy" [File "<string>"], line1 in <module> \n.`
+
+```{figure} ../images/ML/modulenumpyerror.png
+---
+height: 300px
+name: modulenumpyerror-fig
+---
+No Module "numpy" ...
+```
+
+`Solution:`  
+Check pip to install or append package from python path
+
+```py
+import sys
+sys.path.append(r'C:\Users\Chuong.Ho\appdata\local\programs\python\python38\lib\site-packages')
+```
+
+## NumPy version install not correct.
+
+`Solution:` 
+- Uninstall NumPy
+``` bash
+py -3.8 -m pip uninstall numpy
+```
+- Reinstall again with correct version of NumPy.
+
+```bash
+py -3.8 -m pip install numpy==1.18.1
 ```
