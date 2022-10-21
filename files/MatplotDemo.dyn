@@ -1,0 +1,151 @@
+{
+  "Uuid": "620b1083-e2b0-4a73-964d-dd7586eab0d7",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Matplot",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import sys\r\nimport clr\r\nimport System\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\ndirAppLoc = System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData) \r\nsys.path.append(dirAppLoc + r'\\python-3.8.3-embed-amd64\\Lib\\site-packages')\r\n\r\nclr.AddReference('System.Drawing')\r\nimport System.Drawing\r\nfrom System.Drawing import *\r\nfrom System.Drawing.Imaging import *\r\nfrom System.IO import MemoryStream\r\n\r\nimport numpy as np\r\nimport matplotlib.pyplot as plt\r\nfrom PIL import Image\r\nimport io\r\nimport math\r\n\r\ndef plt2arr(fig):\r\n    \"\"\"\r\n    need to draw if figure is not drawn yet\r\n    \"\"\"\r\n    fig.canvas.draw()\r\n    rgba_buf = fig.canvas.buffer_rgba()\r\n    (w,h) = fig.canvas.get_width_height()\r\n    rgba_arr = np.frombuffer(rgba_buf, dtype=np.uint8).reshape((h,w,4))\r\n    return rgba_arr\r\n\r\ndef convertToBitmap2(npImgArray):\r\n    bitmap_ = None\r\n    # remove alpha\r\n    if npImgArray.ndim == 3 and npImgArray.shape[-1] == 4:\r\n        npImgArray = npImgArray[:, :, :-1]\r\n    # convert to PIL Image\r\n    if npImgArray.ndim == 3:\r\n        image = Image.fromarray(npImgArray, \"RGB\")\r\n    else:\r\n        image = Image.fromarray(npImgArray, \"L\")\r\n    # convert to Python ByteArray\r\n    byteIO = io.BytesIO()\r\n    image.save(byteIO, format='BMP')\r\n    byteArr = byteIO.getvalue()\r\n    # convert to Net ByteArray\r\n    netBytes = System.Array[System.Byte](byteArr)\r\n    with MemoryStream(netBytes) as ms:\r\n        bitmap_ = Bitmap(ms)\r\n    return bitmap_\r\n\r\n# plot sin and cos wave\r\nfig = plt.figure()\r\nax = fig.add_subplot(111)\r\nx = np.linspace(-np.pi, np.pi)\r\n\r\nax.set_xlim(-np.pi, np.pi)\r\nax.set_xlabel(\"x\")\r\nax.set_ylabel(\"y\")\r\nax.plot(x, np.sin(x), label=\"sin\")\r\nax.plot(x, np.cos(x ), label=\"cos\")\r\nax.legend()\r\nax.set_title(\"sin(x) and cos(x)\")\r\n\r\nimage_from_plot = plt2arr(fig)\r\nbitmap1 = convertToBitmap2(image_from_plot)\r\n\r\nOUT = bitmap1",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "8d2f1a96f8d0446faada3630f266b31b",
+      "Inputs": [
+        {
+          "Id": "9bd60ae5104041afafb1e8fbbc985385",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "5b0d115daf6e4c84b4dadbdc2356a3dc",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.WatchImageCore, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "5d28ed24365440ea852a03e19d4866aa",
+      "Inputs": [
+        {
+          "Id": "28cd4a8227cf4bc99ece68df3eebaf7e",
+          "Name": "image",
+          "Description": "Image for visualization",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d9f3d709271049b8b6d4016ba31b0fd5",
+          "Name": "image",
+          "Description": "Image for visualization",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Previews an image"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "5b0d115daf6e4c84b4dadbdc2356a3dc",
+      "End": "28cd4a8227cf4bc99ece68df3eebaf7e",
+      "Id": "0f7bae4b83db44b094c717a18bb9d8ba",
+      "IsCollapsed": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.13",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.13.0.2751",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Name": "Python Script",
+        "ShowGeometry": true,
+        "Id": "8d2f1a96f8d0446faada3630f266b31b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 429.0,
+        "Y": 365.0
+      },
+      {
+        "Name": "Watch Image",
+        "ShowGeometry": true,
+        "Id": "5d28ed24365440ea852a03e19d4866aa",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 876.0,
+        "Y": 389.0
+      }
+    ],
+    "Annotations": [],
+    "X": 78.0,
+    "Y": 31.0,
+    "Zoom": 1.0
+  }
+}

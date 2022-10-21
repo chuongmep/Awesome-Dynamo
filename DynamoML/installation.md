@@ -72,7 +72,7 @@ Click Install Python
 ```
 As a first step, you should check that you have a working Python installed. This can be done by running the following commands and making sure that the output looks similar.
 
-Open **CMD** or **Windows PowerShell** With Admin And Command `python`
+Open **[CMD](https://vi.wikipedia.org/wiki/Cmd.exe)** or **[Windows PowerShell](https://en.wikipedia.org/wiki/PowerShell)** With Admin And Command `python`
 
 ```{figure} ../images/ML/checkpython.png
 ---

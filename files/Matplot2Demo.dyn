@@ -1,0 +1,151 @@
+{
+  "Uuid": "620b1083-e2b0-4a73-964d-dd7586eab0d7",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Matplot2",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import sys\r\nimport clr\r\nimport System\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\ndirAppLoc = System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData) \r\nsys.path.append(r'C:\\Users\\Chuong.Ho\\appdata\\local\\programs\\python\\python38\\lib\\site-packages')\r\n\r\nclr.AddReference('System.Drawing')\r\nimport System.Drawing\r\nfrom System.Drawing import *\r\nfrom System.Drawing.Imaging import *\r\nfrom System.IO import MemoryStream\r\n\r\nimport numpy as np\r\nimport matplotlib.pyplot as plt\r\nfrom PIL import Image\r\nimport io\r\nimport math\r\n\r\ndef plt2arr(fig):\r\n    \"\"\"\r\n    need to draw if figure is not drawn yet\r\n    \"\"\"\r\n    fig.canvas.draw()\r\n    rgba_buf = fig.canvas.buffer_rgba()\r\n    (w,h) = fig.canvas.get_width_height()\r\n    rgba_arr = np.frombuffer(rgba_buf, dtype=np.uint8).reshape((h,w,4))\r\n    return rgba_arr\r\n\r\ndef convertToBitmap2(npImgArray):\r\n    bitmap_ = None\r\n    # remove alpha\r\n    if npImgArray.ndim == 3 and npImgArray.shape[-1] == 4:\r\n        npImgArray = npImgArray[:, :, :-1]\r\n    # convert to PIL Image\r\n    if npImgArray.ndim == 3:\r\n        image = Image.fromarray(npImgArray, \"RGB\")\r\n    else:\r\n        image = Image.fromarray(npImgArray, \"L\")\r\n    # convert to Python ByteArray\r\n    byteIO = io.BytesIO()\r\n    image.save(byteIO, format='BMP')\r\n    byteArr = byteIO.getvalue()\r\n    # convert to Net ByteArray\r\n    netBytes = System.Array[System.Byte](byteArr)\r\n    with MemoryStream(netBytes) as ms:\r\n        bitmap_ = Bitmap(ms)\r\n    return bitmap_\r\n\r\n#Plot 2D data on 3D plot\r\nfig = plt.figure(figsize =(8,5))\r\nax = fig.add_subplot(projection='3d')\r\n\r\n# Plot a sin curve using the x and y axes.\r\nx = np.linspace(0, 1, 100)\r\ny = np.sin(x * 2 * np.pi) / 2 + 0.5\r\nax.plot(x, y, zs=0, zdir='z', label='curve in (x, y)')\r\n\r\n# Plot scatterplot data (20 2D points per colour) on the x and z axes.\r\ncolors = ('r', 'g', 'b', 'k')\r\n\r\n# Fixing random state for reproducibility\r\nnp.random.seed(19680801)\r\n\r\nx = np.random.sample(20 * len(colors))\r\ny = np.random.sample(20 * len(colors))\r\nc_list = []\r\nfor c in colors:\r\n    c_list.extend([c] * 20)\r\n# By using zdir='y', the y value of these points is fixed to the zs value 0\r\n# and the (x, y) points are plotted on the x and z axes.\r\nax.scatter(x, y, zs=0, zdir='y', c=c_list, label='points in (x, z)')\r\n\r\n# Make legend, set axes limits and labels\r\nax.legend()\r\nax.set_xlim(0, 1)\r\nax.set_ylim(0, 1)\r\nax.set_zlim(0, 1)\r\nax.set_xlabel('X')\r\nax.set_ylabel('Y')\r\nax.set_zlabel('Z')\r\n\r\n# Customize the view angle so it's easier to see that the scatter points lie\r\n# on the plane y=0\r\nax.view_init(elev=20., azim=-35)\r\n\r\n#plt.show()\r\n\r\nimage_from_plot = plt2arr(fig)\r\nbitmap1 = convertToBitmap2(image_from_plot)\r\n\r\nOUT = bitmap1",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "8d2f1a96f8d0446faada3630f266b31b",
+      "Inputs": [
+        {
+          "Id": "9bd60ae5104041afafb1e8fbbc985385",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "5b0d115daf6e4c84b4dadbdc2356a3dc",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.WatchImageCore, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "5d28ed24365440ea852a03e19d4866aa",
+      "Inputs": [
+        {
+          "Id": "28cd4a8227cf4bc99ece68df3eebaf7e",
+          "Name": "image",
+          "Description": "Image for visualization",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d9f3d709271049b8b6d4016ba31b0fd5",
+          "Name": "image",
+          "Description": "Image for visualization",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Previews an image"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "5b0d115daf6e4c84b4dadbdc2356a3dc",
+      "End": "28cd4a8227cf4bc99ece68df3eebaf7e",
+      "Id": "2da34d96c1764fc6b02b71982978832e",
+      "IsCollapsed": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.13",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.13.0.2751",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Id": "8d2f1a96f8d0446faada3630f266b31b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Python Script",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 351.79601078729263,
+        "Y": 365.92446328559976
+      },
+      {
+        "Id": "5d28ed24365440ea852a03e19d4866aa",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Watch Image",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 638.02602919404012,
+        "Y": 328.98965421816666
+      }
+    ],
+    "Annotations": [],
+    "X": -95.9945197479708,
+    "Y": -324.85644667531238,
+    "Zoom": 1.4510819488660853
+  }
+}
