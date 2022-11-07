@@ -157,7 +157,9 @@ net Dynamo Package.
 
 - [SpringNodes](https://github.com/johnpierson/SpringNodes) - A collection of odd Dynamo nodes 
 
-- [Synthetic](https://github.com/amcgoey/Synthetic) - Synthetic provides Dynamo nodes for manipulating data, and accessing Revit API objects. Includes nodes for documents, worksets, view templates, dictionary data types, and Enum (enumerations). Please refer to the example definitions in the extra folder. The examples show how to use many of the included nodes. 
+- [Synthetic](https://github.com/amcgoey/Synthetic) - Synthetic provides Dynamo nodes for manipulating data, and accessing Revit API objects. Includes nodes for documents, worksets, view templates, dictionary data types, and Enum (enumerations). Please refer to the example definitions in the extra folder. The examples show how to use many of the included nodes.
+
+- [SeuratExtension](https://github.com/simon-gd/SeuratExtension) - This project is a Dynamo Extension that extends the visualization capabilities of Refinery for result-evaluation purposes.
 
 - [TAECRevitNotion](https://github.com/MasaakiYagi/TAECRevitNotion) - TAECのRevit⇔Notion連携ハンズオンの資料です
 
