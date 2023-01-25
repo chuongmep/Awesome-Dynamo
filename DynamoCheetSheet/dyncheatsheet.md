@@ -1,4 +1,4 @@
-# Dynamo Cheet Sheet
+# Dynamo Cheat Sheet
 
 ## [TheRevitKid](http://therevitkid.blogspot.com/2017/09/the-dynamo-desktop-cheat-sheet-free.html)
 
@@ -7,11 +7,11 @@
 height: 500px
 name: directive-fig
 ---
-Dynamo Cheet Sheet From TheRevitKid
+Dynamo Cheat Sheet From TheRevitKid
 ```
 
 ```{note}
-👉 You have cheet sheet ? Open pull request now!
+👉 You have cheat sheet ? Open pull request now!
 
 ```
 
