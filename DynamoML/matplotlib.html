@@ -343,8 +343,13 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="../DynamoCheatSheet/dyncheatsheet.html">
+   20. Dynamo Cheat Sheet
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="../DynamoShowCase/dynshowcase.html">
-   20. Dynamo Show Case
+   21. Dynamo Show Case
   </a>
  </li>
 </ul>
@@ -678,7 +683,7 @@ title="Print to PDF"
 <section id="install">
 <h2><span class="section-number">11.4.1. </span>Install<a class="headerlink" href="#install" title="Permalink to this headline">#</a></h2>
 <p>To install Matplotlib, same with <a class="reference internal" href="numpy.html"><span class="doc std std-doc">Numpy</span></a> tutorial, you can rename it with matplotlib to install.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>py -3.8 -m pip install matplotlib
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>py<span class="w"> </span>-3.8<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>matplotlib
 </pre></div>
 </div>
 <figure class="align-default" id="matplotlibinstall-fig">
@@ -721,7 +726,7 @@ title="Print to PDF"
 <p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-shadow-sm reference external" href="https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/MatplotDemo.dyn"><span>https://github.com/chuongmep/Awesome-Dynamo/blob/master/files/MatplotDemo.dyn</span></a></p>
 <p>Because some error when we use <strong>plt.show()</strong> in Dynamo, so we need convert to bitmap before.</p>
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plt2arr</span><span class="p">(</span><span class="n">fig</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    need to draw if figure is not drawn yet</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">fig</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">draw</span><span class="p">()</span>
