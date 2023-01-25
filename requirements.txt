@@ -4,4 +4,4 @@ numpy
 pandas
 Pillow
 tensorflow
-sklearn
+scikit-learn
