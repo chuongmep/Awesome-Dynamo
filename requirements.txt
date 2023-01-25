@@ -2,6 +2,6 @@ jupyter-book
 matplotlib
 numpy
 pandas
-PIL
+Pillow
 tensorflow
 sklearn
