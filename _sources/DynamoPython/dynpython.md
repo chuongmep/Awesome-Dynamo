@@ -2,7 +2,7 @@
 
 ```{admonition} Dynamo Python Primer
 :class: tip, dropdown
-https://github.com/OliverEGreen/DynamoPythonPrimer
+https://dynamopythonprimer.gitbook.io/dynamo-python-primer/
 ```
 - [Access To Python 3](https://github.com/DynamoDS/Dynamo/wiki/Access-to-Python-3-modules-(Workaround)) - Learn Access to Python 3 modules
 - [Customizing Dynamo's Python 3 installation](https://github.com/DynamoDS/Dynamo/wiki/Customizing-Dynamo's-Python-3-installation) - ...
