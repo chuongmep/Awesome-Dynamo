@@ -24,7 +24,6 @@ https://dynamopackages.com/
 - [Clockwork for Dynamo 2.x](https://github.com/andydandy74/ClockworkForDynamo) - Clockwork is a collection of 450+ custom nodes. It contains many Revit-related nodes, but also lots of nodes for various other purposes such as list management, mathematical operations, string operations, geometric operations (mainly bounding boxes, planes, points, surfaces, UVs and vectors) and paneling.
 - [Data-Shapes](https://data-shapes.io/) - Tested against Revit 2016-2022 + and Dynamo 2.x // UI Nodes now usable in Civil 3D, sandbox and Formit environments as well!! -- Collection of nodes that aims to enhance the interaction with revit and UI creation for dynamo scripts .
 - [DynaMaps](https://dynamobim.org/dynamaps/) - A straightforward way to get site data inside Dynamo. Contains a view extension and dedicated nodes. Built for Dynamo 2.x 
-- DynaMEP - DynaMEP is a solution for user MEP in the Dynamo environment.The solution is designed to support practical, technical, logical, and geometry issues expansion for Autodesk ACE with over 300++ node. 
 - Dynamo Text - A library for creating text in Dynamo. 
 - [DynamoUnfold](https://github.com/mjkkirschner/DynamoUnfold) - DynamoUnfold : Library for building topology from sets of surfaces and unfolding them using Protogeometry tools in Dynamo. 
 - [DynaStandard_public](https://github.com/brencass/DynaStandard_public) - For a Dynamo 1.3 version please refer to the github link below. For none loading issue refer to readme within DynaStandard extra package folder.
@@ -40,7 +39,8 @@ https://dynamopackages.com/
 - [MEPover](https://dynamonodes.com/category/mepover/) - A package that focuses on adding some nodes for MEP, but also some nodes useful for all disciplines. 
 - [MeshToolkit](https://github.com/DynamoDS/Dynamo/wiki/Dynamo-Mesh-Toolkit) - Mesh geometry object 
 - [Modelical](https://www.modelical.com/en/landing/dynamo-package/) - View productivity wall mep pipe duct color delete workset sheet 
-- [Monocle](https://github.com/johnpierson/MonocleForDynamo) - Monocle is a View Extension for Dynamo 2.0.x. Monocle contains a set of useful tools for package identification, graph cleanup and more! Monocle is authored by John Pierson (@60secondrevit) of Parallax Team (http://www.parallaxteam.com/) and designtechunraveled.com. 
+- [Monocle](https://github.com/johnpierson/MonocleForDynamo) - Monocle is a View Extension for Dynamo 2.0.x. Monocle contains a set of useful tools for package identification, graph cleanup and more! Monocle is authored by John Pierson (@60secondrevit) of Parallax Team (http://www.parallaxteam.com/) and designtechunraveled.com.
+- [OpenMEP](https://github.com/chuongmep/OpenMEP) - A awesome package for MEP, Computational Design inside Dynamo Revit. 
 - [Orchid](https://github.com/erfajo/OrchidForDynamo) - Orchid is a solution designed for use in the Dynamo environment. The solution is designed to support practical, technical, geometrical, logical, and mathematical issues. The solution contains functions to solve data handling in Revit projects, Revit families, and materials in Revit. 
 - [Prorubim Common Kit](http://prorubim.com/en/tools/) - Node set with various Dynamo nodes for interacting with Revit 
 - [Prorubim DS Common Kit](http://prorubim.com/en/tools/) - Node set with additional app independent universal Dynamo nodes 
