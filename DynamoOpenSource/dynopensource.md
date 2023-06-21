@@ -173,6 +173,8 @@ net Dynamo Package.
 
 - [Warnamo](https://github.com/KeanW/Warnamo) - Browse warnings and errors in a Dynamo graph. 
 
+- [WhatTheFlock](https://github.com/LongNguyenP/WhatTheFlock) - What is the flocking algorithm In Dynamo
+
 - [Zhukoven](https://github.com/zhukoven/DynamoZhukoven) - This is the Zhukoven.com Dynamo package repo
 
 ```{raw} html
