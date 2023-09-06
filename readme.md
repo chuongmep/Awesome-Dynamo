@@ -3,13 +3,15 @@
 [![Jupyter Book Badge](images/jupyterbook.svg)](https://jupyterbook.org)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Dynamo](https://img.shields.io/badge/Dynamo-Autodesk-blue)
 
-![](images/DynamoBackground.png)
+![](images/AwesomeDynamo.png)
 
 ## 🧠Introduction
 
 The Awesome [Dynamo](https://dynamobim.org/) project celebrates and aggregates authors, essential and complete content with a large contribution from the community, the main purpose of which is to store dynamo core values and make it easy to learn, apply to work and explore power of Dynamo.
 
 Get Start Now => https://chuongmep.github.io/Awesome-Dynamo/intro.html
+
+![](images/DynamoBackground.png)
 
 ## 🦠 Acknowledgements
 
